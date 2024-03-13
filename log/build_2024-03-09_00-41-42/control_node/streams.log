@@ -1,0 +1,43 @@
+[4.318s] Invoking command in '/home/orangepi/AUV_ROS2/src/control_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed
+[5.058s] running egg_info
+[5.060s] writing ../../build/control_node/control_node.egg-info/PKG-INFO
+[5.060s] writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt
+[5.061s] writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt
+[5.061s] writing requirements to ../../build/control_node/control_node.egg-info/requires.txt
+[5.062s] writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt
+[5.062s] reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[5.062s] adding license file 'LICENSE'
+[5.063s] writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[5.065s] running build
+[5.066s] running build_py
+[5.066s] copying control_node/auv.py -> /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node
+[5.066s] running install
+[5.067s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.068s]   warnings.warn(
+[5.068s] running install_lib
+[5.069s] copying /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node/auv.py -> /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node
+[5.070s] byte-compiling /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py to auv.cpython-310.pyc
+[5.074s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:73: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.075s]   if thruster is "left":
+[5.075s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:75: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.076s]   elif thruster is "right":
+[5.076s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:77: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.078s]   elif thruster is "all":
+[5.082s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:92: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.086s]   if type is "all":
+[5.086s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.089s]   elif type is "left" or type is "right":
+[5.090s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.090s]   elif type is "left" or type is "right":
+[5.102s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:129: SyntaxWarning: "is" with a literal. Did you mean "=="?
+[5.103s]   elif type is "water_pump":
+[5.104s] /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:170: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[5.104s]   if t is not 0:
+[5.106s] running install_data
+[5.107s] running install_egg_info
+[5.108s] removing '/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)
+[5.108s] Copying ../../build/control_node/control_node.egg-info to /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info
+[5.109s] running install_scripts
+[5.127s] Installing control_node script to /home/orangepi/AUV_ROS2/install/control_node/lib/control_node
+[5.127s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/control_node/install.log'
+[5.390s] Invoked command in '/home/orangepi/AUV_ROS2/src/control_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed

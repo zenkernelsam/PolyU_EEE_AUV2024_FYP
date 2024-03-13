@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/start_auv/start_auv.egg-info
+writing ../../build/start_auv/start_auv.egg-info/PKG-INFO
+writing dependency_links to ../../build/start_auv/start_auv.egg-info/dependency_links.txt
+writing entry points to ../../build/start_auv/start_auv.egg-info/entry_points.txt
+writing requirements to ../../build/start_auv/start_auv.egg-info/requires.txt
+writing top-level names to ../../build/start_auv/start_auv.egg-info/top_level.txt
+writing manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+reading manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+writing manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/AUV_ROS2/build/start_auv/build
+creating /home/orangepi/AUV_ROS2/build/start_auv/build/lib
+creating /home/orangepi/AUV_ROS2/build/start_auv/build/lib/start_auv
+copying start_auv/__init__.py -> /home/orangepi/AUV_ROS2/build/start_auv/build/lib/start_auv
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv
+copying /home/orangepi/AUV_ROS2/build/start_auv/build/lib/start_auv/__init__.py -> /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv
+byte-compiling /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/orangepi/AUV_ROS2/install/start_auv/share/ament_index
+creating /home/orangepi/AUV_ROS2/install/start_auv/share/ament_index/resource_index
+creating /home/orangepi/AUV_ROS2/install/start_auv/share/ament_index/resource_index/packages
+copying resource/start_auv -> /home/orangepi/AUV_ROS2/install/start_auv/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/AUV_ROS2/install/start_auv/share/start_auv
+running install_egg_info
+Copying ../../build/start_auv/start_auv.egg-info to /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/orangepi/AUV_ROS2/build/start_auv/install.log'

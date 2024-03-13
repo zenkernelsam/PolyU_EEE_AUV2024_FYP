@@ -1,0 +1,24 @@
+[3.908s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed
+[4.380s] running egg_info
+[4.381s] writing ../../build/task1_node/task1_node.egg-info/PKG-INFO
+[4.381s] writing dependency_links to ../../build/task1_node/task1_node.egg-info/dependency_links.txt
+[4.382s] writing entry points to ../../build/task1_node/task1_node.egg-info/entry_points.txt
+[4.382s] writing requirements to ../../build/task1_node/task1_node.egg-info/requires.txt
+[4.382s] writing top-level names to ../../build/task1_node/task1_node.egg-info/top_level.txt
+[4.385s] reading manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'
+[4.386s] adding license file 'LICENSE'
+[4.387s] writing manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'
+[4.387s] running build
+[4.387s] running build_py
+[4.388s] running install
+[4.388s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.388s]   warnings.warn(
+[4.388s] running install_lib
+[4.390s] running install_data
+[4.391s] running install_egg_info
+[4.394s] removing '/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node-0.0.0-py3.10.egg-info' (and everything under it)
+[4.396s] Copying ../../build/task1_node/task1_node.egg-info to /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node-0.0.0-py3.10.egg-info
+[4.403s] running install_scripts
+[4.440s] Installing task1_node script to /home/orangepi/AUV_ROS2/install/task1_node/lib/task1_node
+[4.441s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_node/install.log'
+[4.512s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed

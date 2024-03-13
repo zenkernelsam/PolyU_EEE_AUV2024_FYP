@@ -1,0 +1,18 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:73: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if thruster is "left":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:75: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif thruster is "right":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:77: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif thruster is "all":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:92: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if type is "all":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif type is "left" or type is "right":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif type is "left" or type is "right":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:129: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif type is "water_pump":
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:170: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if t is not 0:

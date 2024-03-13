@@ -1,0 +1,3 @@
+[console_scripts]
+buoyancy_node = buoyancy_node.buoyancy_node:main
+

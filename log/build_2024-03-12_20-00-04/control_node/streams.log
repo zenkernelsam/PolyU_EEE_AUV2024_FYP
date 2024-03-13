@@ -1,0 +1,28 @@
+[6.372s] Invoking command in '/home/orangepi/AUV_ROS2/src/control_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed
+[6.865s] running egg_info
+[6.871s] writing ../../build/control_node/control_node.egg-info/PKG-INFO
+[6.872s] writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt
+[6.872s] writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt
+[6.873s] writing requirements to ../../build/control_node/control_node.egg-info/requires.txt
+[6.907s] writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt
+[6.908s] package init file 'control_node/submodules/__init__.py' not found (or not a regular file)
+[6.909s] reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[6.909s] adding license file 'LICENSE'
+[6.909s] writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[6.910s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.910s]   warnings.warn(
+[6.911s] running build
+[6.911s] running build_py
+[6.912s] copying control_node/control_node.py -> /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node
+[6.912s] running install
+[6.913s] running install_lib
+[6.913s] copying /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node/control_node.py -> /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node
+[6.913s] byte-compiling /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/control_node.py to control_node.cpython-310.pyc
+[6.914s] running install_data
+[6.914s] running install_egg_info
+[6.915s] removing '/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)
+[6.915s] Copying ../../build/control_node/control_node.egg-info to /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info
+[6.915s] running install_scripts
+[6.925s] Installing control_node script to /home/orangepi/AUV_ROS2/install/control_node/lib/control_node
+[6.926s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/control_node/install.log'
+[7.011s] Invoked command in '/home/orangepi/AUV_ROS2/src/control_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed

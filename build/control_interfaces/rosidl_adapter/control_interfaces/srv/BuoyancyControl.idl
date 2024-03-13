@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from control_interfaces/srv/BuoyancyControl.srv
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module srv {
+    struct BuoyancyControl_Request {
+      boolean modify_depth;
+
+      float new_depth;
+    };
+    struct BuoyancyControl_Response {
+      boolean is_succeeded;
+
+      float now_depth;
+    };
+  };
+};

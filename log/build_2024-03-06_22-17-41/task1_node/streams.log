@@ -1,0 +1,40 @@
+[2.507s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed
+[2.859s] running egg_info
+[2.860s] creating ../../build/task1_node/task1_node.egg-info
+[2.862s] writing ../../build/task1_node/task1_node.egg-info/PKG-INFO
+[2.862s] writing dependency_links to ../../build/task1_node/task1_node.egg-info/dependency_links.txt
+[2.863s] writing entry points to ../../build/task1_node/task1_node.egg-info/entry_points.txt
+[2.863s] writing requirements to ../../build/task1_node/task1_node.egg-info/requires.txt
+[2.864s] writing top-level names to ../../build/task1_node/task1_node.egg-info/top_level.txt
+[2.864s] writing manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'
+[2.866s] reading manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'
+[2.866s] adding license file 'LICENSE'
+[2.869s] writing manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'
+[2.870s] running build
+[2.870s] running build_py
+[2.870s] creating /home/orangepi/AUV_ROS2/build/task1_node/build
+[2.871s] creating /home/orangepi/AUV_ROS2/build/task1_node/build/lib
+[2.871s] creating /home/orangepi/AUV_ROS2/build/task1_node/build/lib/task1_node
+[2.872s] copying task1_node/task1_node.py -> /home/orangepi/AUV_ROS2/build/task1_node/build/lib/task1_node
+[2.873s] copying task1_node/__init__.py -> /home/orangepi/AUV_ROS2/build/task1_node/build/lib/task1_node
+[2.873s] running install
+[2.873s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.874s]   warnings.warn(
+[2.874s] running install_lib
+[2.875s] creating /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node
+[2.875s] copying /home/orangepi/AUV_ROS2/build/task1_node/build/lib/task1_node/task1_node.py -> /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node
+[2.876s] copying /home/orangepi/AUV_ROS2/build/task1_node/build/lib/task1_node/__init__.py -> /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node
+[2.877s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node/task1_node.py to task1_node.cpython-310.pyc
+[2.877s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node/__init__.py to __init__.cpython-310.pyc
+[2.878s] running install_data
+[2.878s] creating /home/orangepi/AUV_ROS2/install/task1_node/share/ament_index
+[2.878s] creating /home/orangepi/AUV_ROS2/install/task1_node/share/ament_index/resource_index
+[2.879s] creating /home/orangepi/AUV_ROS2/install/task1_node/share/ament_index/resource_index/packages
+[2.879s] copying resource/task1_node -> /home/orangepi/AUV_ROS2/install/task1_node/share/ament_index/resource_index/packages
+[2.880s] copying package.xml -> /home/orangepi/AUV_ROS2/install/task1_node/share/task1_node
+[2.880s] running install_egg_info
+[2.880s] Copying ../../build/task1_node/task1_node.egg-info to /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node-0.0.0-py3.10.egg-info
+[2.881s] running install_scripts
+[2.894s] Installing task1_node script to /home/orangepi/AUV_ROS2/install/task1_node/lib/task1_node
+[2.894s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_node/install.log'
+[3.233s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed

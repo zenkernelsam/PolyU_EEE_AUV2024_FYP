@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (buoyancy_node) JobQueued: {'identifier': 'buoyancy_node', 'dependencies': OrderedDict()}
+[0.001219] (control_interfaces) JobQueued: {'identifier': 'control_interfaces', 'dependencies': OrderedDict()}
+[0.001353] (control_node) JobQueued: {'identifier': 'control_node', 'dependencies': OrderedDict()}
+[0.001595] (master_node) JobQueued: {'identifier': 'master_node', 'dependencies': OrderedDict()}
+[0.001903] (remote_node) JobQueued: {'identifier': 'remote_node', 'dependencies': OrderedDict()}
+[0.002222] (task1_node) JobQueued: {'identifier': 'task1_node', 'dependencies': OrderedDict()}
+[0.002516] (task2_node) JobQueued: {'identifier': 'task2_node', 'dependencies': OrderedDict()}
+[0.002857] (buoyancy_node) JobStarted: {'identifier': 'buoyancy_node'}
+[0.099619] (-) TimerEvent: {}
+[0.101602] (control_interfaces) JobStarted: {'identifier': 'control_interfaces'}
+[0.172661] (control_node) JobStarted: {'identifier': 'control_node'}
+[0.200068] (-) TimerEvent: {}
+[0.263779] (master_node) JobStarted: {'identifier': 'master_node'}
+[0.300824] (-) TimerEvent: {}
+[0.354903] (remote_node) JobStarted: {'identifier': 'remote_node'}
+[0.401151] (-) TimerEvent: {}
+[0.443876] (task1_node) JobStarted: {'identifier': 'task1_node'}
+[0.501628] (-) TimerEvent: {}
+[0.550063] (task2_node) JobStarted: {'identifier': 'task2_node'}
+[0.602547] (-) TimerEvent: {}
+[0.703524] (-) TimerEvent: {}
+[0.804272] (-) TimerEvent: {}
+[0.905454] (-) TimerEvent: {}
+[1.006613] (-) TimerEvent: {}
+[1.072180] (control_interfaces) JobProgress: {'identifier': 'control_interfaces', 'progress': 'cmake'}
+[1.074957] (control_interfaces) JobProgress: {'identifier': 'control_interfaces', 'progress': 'build'}
+[1.075578] (control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/AUV_ROS2/build/control_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/AUV_ROS2/build/control_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.191.52 3711 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('PAN_MESA_DEBUG', 'gofaster'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/AUV_ROS2/src'), ('SSH_TTY', '/dev/pts/10'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '155'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('PWD', '/home/orangepi/AUV_ROS2/build/control_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.191.52 3711 192.168.191.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install/control_interfaces:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[1.106964] (-) TimerEvent: {}
+[1.207928] (-) TimerEvent: {}
+[1.308423] (-) TimerEvent: {}
+[1.409133] (-) TimerEvent: {}
+[1.516867] (-) TimerEvent: {}
+[1.617575] (-) TimerEvent: {}
+[1.718563] (-) TimerEvent: {}
+[1.819568] (-) TimerEvent: {}
+[1.920548] (-) TimerEvent: {}
+[2.024121] (-) TimerEvent: {}
+[2.125779] (-) TimerEvent: {}
+[2.226835] (-) TimerEvent: {}
+[2.327792] (-) TimerEvent: {}
+[2.428741] (-) TimerEvent: {}
+[2.529787] (-) TimerEvent: {}
+[2.631463] (-) TimerEvent: {}
+[2.732662] (-) TimerEvent: {}
+[2.833596] (-) TimerEvent: {}
+[2.934554] (-) TimerEvent: {}
+[3.048926] (-) TimerEvent: {}
+[3.149922] (-) TimerEvent: {}
+[3.250352] (-) TimerEvent: {}
+[3.350937] (-) TimerEvent: {}
+[3.451812] (-) TimerEvent: {}
+[3.552637] (-) TimerEvent: {}
+[3.575185] (control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.577198] (control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.577801] (control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.582517] (control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.583069] (control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.584737] (control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.586207] (control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.586840] (control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.587518] (control_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.600011] (control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.600845] (control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.603764] (control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.652948] (-) TimerEvent: {}
+[3.659604] (control_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.728934] (control_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.735509] (control_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.748385] (control_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.753130] (-) TimerEvent: {}
+[3.854308] (-) TimerEvent: {}
+[3.943051] (control_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.948234] (control_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/AUV_ROS2/build/control_interfaces\n'}
+[3.954399] (-) TimerEvent: {}
+[4.054908] (-) TimerEvent: {}
+[4.080820] (control_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.117071] (control_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.155137] (-) TimerEvent: {}
+[4.212120] (buoyancy_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/buoyancy_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/buoyancy_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/buoyancy_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/buoyancy_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/buoyancy_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/buoyancy_node/prefix_override:/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.255231] (-) TimerEvent: {}
+[4.300132] (control_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_control_interfaces\n'}
+[4.351104] (task1_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/task1_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/task1_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/task1_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/task1_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/task1_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.355392] (-) TimerEvent: {}
+[4.445668] (remote_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/remote_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/remote_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/remote_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/remote_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/remote_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.455514] (-) TimerEvent: {}
+[4.467048] (task2_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/task2_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/task2_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/task2_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/task2_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/task2_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/task2_node/prefix_override:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.488511] (control_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/control_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/control_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/control_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.558033] (master_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/master_node', 'build', '--build-base', '/home/orangepi/AUV_ROS2/build/master_node/build', 'install', '--record', '/home/orangepi/AUV_ROS2/build/master_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/orangepi/AUV_ROS2/src/master_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.191.52 3711 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'PAN_MESA_DEBUG': 'gofaster', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/AUV_ROS2/src', 'SSH_TTY': '/dev/pts/10', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '155', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GST_V4L2_USE_LIBV4L2': '1', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'PWD': '/home/orangepi/AUV_ROS2/build/master_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.191.52 3711 192.168.191.89 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orangepi/AUV_ROS2/build/master_node/prefix_override:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[4.559195] (-) TimerEvent: {}
+[4.609278] (buoyancy_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.610254] (buoyancy_node) StdoutLine: {'line': b'creating ../../build/buoyancy_node/buoyancy_node.egg-info\n'}
+[4.610622] (buoyancy_node) StdoutLine: {'line': b'writing ../../build/buoyancy_node/buoyancy_node.egg-info/PKG-INFO\n'}
+[4.610992] (buoyancy_node) StdoutLine: {'line': b'writing dependency_links to ../../build/buoyancy_node/buoyancy_node.egg-info/dependency_links.txt\n'}
+[4.611182] (buoyancy_node) StdoutLine: {'line': b'writing entry points to ../../build/buoyancy_node/buoyancy_node.egg-info/entry_points.txt\n'}
+[4.611339] (buoyancy_node) StdoutLine: {'line': b'writing requirements to ../../build/buoyancy_node/buoyancy_node.egg-info/requires.txt\n'}
+[4.611477] (buoyancy_node) StdoutLine: {'line': b'writing top-level names to ../../build/buoyancy_node/buoyancy_node.egg-info/top_level.txt\n'}
+[4.611735] (buoyancy_node) StdoutLine: {'line': b"writing manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'\n"}
+[4.614459] (buoyancy_node) StdoutLine: {'line': b"reading manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'\n"}
+[4.615735] (buoyancy_node) StdoutLine: {'line': b"writing manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'\n"}
+[4.616043] (buoyancy_node) StdoutLine: {'line': b'running build\n'}
+[4.616257] (buoyancy_node) StdoutLine: {'line': b'running build_py\n'}
+[4.616408] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/buoyancy_node/build\n'}
+[4.616501] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/buoyancy_node/build/lib\n'}
+[4.616633] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/buoyancy_node/build/lib/buoyancy_node\n'}
+[4.616726] (buoyancy_node) StdoutLine: {'line': b'copying buoyancy_node/__init__.py -> /home/orangepi/AUV_ROS2/build/buoyancy_node/build/lib/buoyancy_node\n'}
+[4.616809] (buoyancy_node) StdoutLine: {'line': b'running install\n'}
+[4.617168] (buoyancy_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.617333] (buoyancy_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.617667] (buoyancy_node) StdoutLine: {'line': b'running install_lib\n'}
+[4.621126] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node\n'}
+[4.621400] (buoyancy_node) StdoutLine: {'line': b'copying /home/orangepi/AUV_ROS2/build/buoyancy_node/build/lib/buoyancy_node/__init__.py -> /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node\n'}
+[4.622581] (buoyancy_node) StdoutLine: {'line': b'byte-compiling /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node/__init__.py to __init__.cpython-310.pyc\n'}
+[4.622853] (buoyancy_node) StdoutLine: {'line': b'running install_data\n'}
+[4.623730] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/buoyancy_node/share/ament_index\n'}
+[4.623950] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/buoyancy_node/share/ament_index/resource_index\n'}
+[4.624098] (buoyancy_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/buoyancy_node/share/ament_index/resource_index/packages\n'}
+[4.624237] (buoyancy_node) StdoutLine: {'line': b'copying resource/buoyancy_node -> /home/orangepi/AUV_ROS2/install/buoyancy_node/share/ament_index/resource_index/packages\n'}
+[4.624328] (buoyancy_node) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node\n'}
+[4.624409] (buoyancy_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.627145] (buoyancy_node) StdoutLine: {'line': b'Copying ../../build/buoyancy_node/buoyancy_node.egg-info to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node-0.0.0-py3.10.egg-info\n'}
+[4.628227] (buoyancy_node) StdoutLine: {'line': b'running install_scripts\n'}
+[4.659335] (-) TimerEvent: {}
+[4.661610] (buoyancy_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/buoyancy_node/install.log'\n"}
+[4.744854] (buoyancy_node) CommandEnded: {'returncode': 0}
+[4.759695] (-) TimerEvent: {}
+[4.781446] (control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.782707] (control_interfaces) StdoutLine: {'line': b'writing control_interfaces.egg-info/PKG-INFO\n'}
+[4.787547] (control_interfaces) StdoutLine: {'line': b'writing dependency_links to control_interfaces.egg-info/dependency_links.txt\n'}
+[4.787811] (control_interfaces) StdoutLine: {'line': b'writing top-level names to control_interfaces.egg-info/top_level.txt\n'}
+[4.787945] (control_interfaces) StdoutLine: {'line': b"reading manifest file 'control_interfaces.egg-info/SOURCES.txt'\n"}
+[4.788649] (control_interfaces) StdoutLine: {'line': b"writing manifest file 'control_interfaces.egg-info/SOURCES.txt'\n"}
+[4.810426] (buoyancy_node) JobEnded: {'identifier': 'buoyancy_node', 'rc': 0}
+[4.824004] (task1_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.825276] (task1_node) StdoutLine: {'line': b'writing ../../build/task1_node/task1_node.egg-info/PKG-INFO\n'}
+[4.825632] (task1_node) StdoutLine: {'line': b'writing dependency_links to ../../build/task1_node/task1_node.egg-info/dependency_links.txt\n'}
+[4.825896] (task1_node) StdoutLine: {'line': b'writing entry points to ../../build/task1_node/task1_node.egg-info/entry_points.txt\n'}
+[4.826088] (task1_node) StdoutLine: {'line': b'writing requirements to ../../build/task1_node/task1_node.egg-info/requires.txt\n'}
+[4.826251] (task1_node) StdoutLine: {'line': b'writing top-level names to ../../build/task1_node/task1_node.egg-info/top_level.txt\n'}
+[4.829592] (task1_node) StdoutLine: {'line': b"reading manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'\n"}
+[4.829957] (task1_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.831210] (task1_node) StdoutLine: {'line': b"writing manifest file '../../build/task1_node/task1_node.egg-info/SOURCES.txt'\n"}
+[4.831521] (task1_node) StdoutLine: {'line': b'running build\n'}
+[4.831644] (task1_node) StdoutLine: {'line': b'running build_py\n'}
+[4.831905] (task1_node) StdoutLine: {'line': b'running install\n'}
+[4.832224] (task1_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.832410] (task1_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.832728] (task1_node) StdoutLine: {'line': b'running install_lib\n'}
+[4.834750] (task1_node) StdoutLine: {'line': b'running install_data\n'}
+[4.835609] (task1_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.838268] (task1_node) StdoutLine: {'line': b"removing '/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.840082] (task1_node) StdoutLine: {'line': b'Copying ../../build/task1_node/task1_node.egg-info to /home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages/task1_node-0.0.0-py3.10.egg-info\n'}
+[4.847476] (task1_node) StdoutLine: {'line': b'running install_scripts\n'}
+[4.854339] (control_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_control_interfaces_egg\n'}
+[4.859826] (-) TimerEvent: {}
+[4.884214] (task1_node) StdoutLine: {'line': b'Installing task1_node script to /home/orangepi/AUV_ROS2/install/task1_node/lib/task1_node\n'}
+[4.885339] (task1_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_node/install.log'\n"}
+[4.938025] (master_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.939178] (master_node) StdoutLine: {'line': b'writing ../../build/master_node/master_node.egg-info/PKG-INFO\n'}
+[4.941061] (master_node) StdoutLine: {'line': b'writing dependency_links to ../../build/master_node/master_node.egg-info/dependency_links.txt\n'}
+[4.941727] (master_node) StdoutLine: {'line': b'writing entry points to ../../build/master_node/master_node.egg-info/entry_points.txt\n'}
+[4.942209] (master_node) StdoutLine: {'line': b'writing requirements to ../../build/master_node/master_node.egg-info/requires.txt\n'}
+[4.942647] (master_node) StdoutLine: {'line': b'writing top-level names to ../../build/master_node/master_node.egg-info/top_level.txt\n'}
+[4.943419] (master_node) StdoutLine: {'line': b"reading manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'\n"}
+[4.944177] (master_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.945866] (master_node) StdoutLine: {'line': b"writing manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'\n"}
+[4.946343] (master_node) StdoutLine: {'line': b'running build\n'}
+[4.946589] (master_node) StdoutLine: {'line': b'running build_py\n'}
+[4.947339] (master_node) StdoutLine: {'line': b'running install\n'}
+[4.947751] (master_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.947950] (master_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.948676] (master_node) StdoutLine: {'line': b'running install_lib\n'}
+[4.956375] (task1_node) CommandEnded: {'returncode': 0}
+[4.957003] (master_node) StdoutLine: {'line': b'running install_data\n'}
+[4.957144] (master_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.957240] (master_node) StdoutLine: {'line': b"removing '/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.957329] (master_node) StdoutLine: {'line': b'Copying ../../build/master_node/master_node.egg-info to /home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node-0.0.0-py3.10.egg-info\n'}
+[4.957416] (master_node) StdoutLine: {'line': b'running install_scripts\n'}
+[4.972295] (-) TimerEvent: {}
+[4.987688] (master_node) StdoutLine: {'line': b'Installing master_node script to /home/orangepi/AUV_ROS2/install/master_node/lib/master_node\n'}
+[4.988420] (master_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/master_node/install.log'\n"}
+[5.072849] (-) TimerEvent: {}
+[5.091388] (remote_node) StdoutLine: {'line': b'running egg_info\n'}
+[5.092400] (remote_node) StdoutLine: {'line': b'creating ../../build/remote_node/remote_node.egg-info\n'}
+[5.093423] (remote_node) StdoutLine: {'line': b'writing ../../build/remote_node/remote_node.egg-info/PKG-INFO\n'}
+[5.093977] (remote_node) StdoutLine: {'line': b'writing dependency_links to ../../build/remote_node/remote_node.egg-info/dependency_links.txt\n'}
+[5.094426] (remote_node) StdoutLine: {'line': b'writing entry points to ../../build/remote_node/remote_node.egg-info/entry_points.txt\n'}
+[5.094884] (remote_node) StdoutLine: {'line': b'writing requirements to ../../build/remote_node/remote_node.egg-info/requires.txt\n'}
+[5.095303] (remote_node) StdoutLine: {'line': b'writing top-level names to ../../build/remote_node/remote_node.egg-info/top_level.txt\n'}
+[5.095874] (remote_node) StdoutLine: {'line': b"writing manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'\n"}
+[5.096487] (remote_node) StdoutLine: {'line': b"reading manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'\n"}
+[5.098418] (remote_node) StdoutLine: {'line': b"writing manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'\n"}
+[5.099158] (remote_node) StdoutLine: {'line': b'running build\n'}
+[5.099766] (remote_node) StdoutLine: {'line': b'running build_py\n'}
+[5.100196] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/remote_node/build\n'}
+[5.100826] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/remote_node/build/lib\n'}
+[5.101378] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node\n'}
+[5.102064] (remote_node) StdoutLine: {'line': b'copying remote_node/__init__.py -> /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node\n'}
+[5.102831] (remote_node) StdoutLine: {'line': b'running install\n'}
+[5.103373] (remote_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.103847] (remote_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.104250] (remote_node) StdoutLine: {'line': b'running install_lib\n'}
+[5.104693] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node\n'}
+[5.105122] (remote_node) StdoutLine: {'line': b'copying /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node/__init__.py -> /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node\n'}
+[5.105623] (remote_node) StdoutLine: {'line': b'byte-compiling /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node/__init__.py to __init__.cpython-310.pyc\n'}
+[5.106184] (remote_node) StdoutLine: {'line': b'running install_data\n'}
+[5.106652] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index\n'}
+[5.107226] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index\n'}
+[5.107638] (remote_node) StdoutLine: {'line': b'creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index/packages\n'}
+[5.108090] (remote_node) StdoutLine: {'line': b'copying resource/remote_node -> /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index/packages\n'}
+[5.108517] (remote_node) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/AUV_ROS2/install/remote_node/share/remote_node\n'}
+[5.108927] (remote_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.109335] (remote_node) StdoutLine: {'line': b'Copying ../../build/remote_node/remote_node.egg-info to /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node-0.0.0-py3.10.egg-info\n'}
+[5.109746] (remote_node) StdoutLine: {'line': b'running install_scripts\n'}
+[5.138707] (task1_node) JobEnded: {'identifier': 'task1_node', 'rc': 0}
+[5.141942] (remote_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/remote_node/install.log'\n"}
+[5.145359] (master_node) CommandEnded: {'returncode': 0}
+[5.173099] (-) TimerEvent: {}
+[5.226475] (control_node) StdoutLine: {'line': b'running egg_info\n'}
+[5.231403] (control_node) StdoutLine: {'line': b'writing ../../build/control_node/control_node.egg-info/PKG-INFO\n'}
+[5.232802] (control_node) StdoutLine: {'line': b'writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt\n'}
+[5.233295] (control_node) StdoutLine: {'line': b'writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt\n'}
+[5.233751] (control_node) StdoutLine: {'line': b'writing requirements to ../../build/control_node/control_node.egg-info/requires.txt\n'}
+[5.234185] (control_node) StdoutLine: {'line': b'writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt\n'}
+[5.234655] (control_node) StdoutLine: {'line': b"reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'\n"}
+[5.235077] (control_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.235842] (control_node) StdoutLine: {'line': b"writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'\n"}
+[5.237381] (control_node) StdoutLine: {'line': b'running build\n'}
+[5.237987] (control_node) StdoutLine: {'line': b'running build_py\n'}
+[5.238539] (control_node) StdoutLine: {'line': b'copying control_node/auv.py -> /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node\n'}
+[5.238974] (control_node) StdoutLine: {'line': b'running install\n'}
+[5.239934] (control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.240508] (control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.240921] (control_node) StdoutLine: {'line': b'running install_lib\n'}
+[5.241716] (control_node) StdoutLine: {'line': b'copying /home/orangepi/AUV_ROS2/build/control_node/build/lib/control_node/auv.py -> /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node\n'}
+[5.242874] (control_node) StdoutLine: {'line': b'byte-compiling /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py to auv.cpython-310.pyc\n'}
+[5.243452] (task2_node) StdoutLine: {'line': b'running egg_info\n'}
+[5.245333] (task2_node) StdoutLine: {'line': b'writing ../../build/task2_node/task2_node.egg-info/PKG-INFO\n'}
+[5.246044] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:73: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.247263] (control_node) StderrLine: {'line': b'  if thruster is "left":\n'}
+[5.247700] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:75: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.248322] (control_node) StderrLine: {'line': b'  elif thruster is "right":\n'}
+[5.248743] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:77: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.249167] (control_node) StderrLine: {'line': b'  elif thruster is "all":\n'}
+[5.250875] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:92: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.255242] (control_node) StderrLine: {'line': b'  if type is "all":\n'}
+[5.258889] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.259458] (control_node) StderrLine: {'line': b'  elif type is "left" or type is "right":\n'}
+[5.262255] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:110: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.262828] (control_node) StderrLine: {'line': b'  elif type is "left" or type is "right":\n'}
+[5.263260] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:129: SyntaxWarning: "is" with a literal. Did you mean "=="?\n'}
+[5.275395] (-) TimerEvent: {}
+[5.275951] (control_node) StderrLine: {'line': b'  elif type is "water_pump":\n'}
+[5.276458] (control_node) StderrLine: {'line': b'/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/auv.py:170: SyntaxWarning: "is not" with a literal. Did you mean "!="?\n'}
+[5.276900] (control_node) StderrLine: {'line': b'  if t is not 0:\n'}
+[5.277325] (task2_node) StdoutLine: {'line': b'writing dependency_links to ../../build/task2_node/task2_node.egg-info/dependency_links.txt\n'}
+[5.277794] (task2_node) StdoutLine: {'line': b'writing entry points to ../../build/task2_node/task2_node.egg-info/entry_points.txt\n'}
+[5.278346] (control_node) StdoutLine: {'line': b'running install_data\n'}
+[5.278862] (task2_node) StdoutLine: {'line': b'writing requirements to ../../build/task2_node/task2_node.egg-info/requires.txt\n'}
+[5.279414] (task2_node) StdoutLine: {'line': b'writing top-level names to ../../build/task2_node/task2_node.egg-info/top_level.txt\n'}
+[5.279823] (control_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.280231] (control_node) StdoutLine: {'line': b"removing '/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.280631] (control_node) StdoutLine: {'line': b'Copying ../../build/control_node/control_node.egg-info to /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info\n'}
+[5.281027] (task2_node) StdoutLine: {'line': b"reading manifest file '../../build/task2_node/task2_node.egg-info/SOURCES.txt'\n"}
+[5.281564] (task2_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.281974] (control_node) StdoutLine: {'line': b'running install_scripts\n'}
+[5.282393] (task2_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.282872] (task2_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.283274] (task2_node) StdoutLine: {'line': b"writing manifest file '../../build/task2_node/task2_node.egg-info/SOURCES.txt'\n"}
+[5.283674] (task2_node) StdoutLine: {'line': b'running build\n'}
+[5.284068] (task2_node) StdoutLine: {'line': b'running build_py\n'}
+[5.284456] (task2_node) StdoutLine: {'line': b'running install\n'}
+[5.284988] (task2_node) StdoutLine: {'line': b'running install_lib\n'}
+[5.285535] (task2_node) StdoutLine: {'line': b'running install_data\n'}
+[5.286082] (task2_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.286571] (task2_node) StdoutLine: {'line': b"removing '/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages/task2_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.287013] (control_interfaces) StdoutLine: {'line': b'[  4%] Built target control_interfaces__cpp\n'}
+[5.287472] (task2_node) StdoutLine: {'line': b'Copying ../../build/task2_node/task2_node.egg-info to /home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages/task2_node-0.0.0-py3.10.egg-info\n'}
+[5.287995] (task2_node) StdoutLine: {'line': b'running install_scripts\n'}
+[5.299023] (control_node) StdoutLine: {'line': b'Installing control_node script to /home/orangepi/AUV_ROS2/install/control_node/lib/control_node\n'}
+[5.299807] (control_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/control_node/install.log'\n"}
+[5.313724] (task2_node) StdoutLine: {'line': b'Installing task2_node script to /home/orangepi/AUV_ROS2/install/task2_node/lib/task2_node\n'}
+[5.314551] (task2_node) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/AUV_ROS2/build/task2_node/install.log'\n"}
+[5.328822] (control_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.333438] (control_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.340562] (control_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.375711] (-) TimerEvent: {}
+[5.426588] (master_node) JobEnded: {'identifier': 'master_node', 'rc': 0}
+[5.428520] (remote_node) CommandEnded: {'returncode': 0}
+[5.476010] (-) TimerEvent: {}
+[5.559082] (remote_node) JobEnded: {'identifier': 'remote_node', 'rc': 0}
+[5.562033] (control_node) CommandEnded: {'returncode': 0}
+[5.576496] (-) TimerEvent: {}
+[5.671930] (control_node) JobEnded: {'identifier': 'control_node', 'rc': 0}
+[5.672424] (task2_node) CommandEnded: {'returncode': 0}
+[5.676815] (-) TimerEvent: {}
+[5.704155] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.750940] (task2_node) JobEnded: {'identifier': 'task2_node', 'rc': 0}
+[5.754591] (control_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/get_task__functions.c.o\x1b[0m\n'}
+[5.761960] (control_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/buoyancy_control__functions.c.o\x1b[0m\n'}
+[5.766773] (control_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/control_interfaces/srv/detail/get_command__functions.c.o\x1b[0m\n'}
+[5.776933] (-) TimerEvent: {}
+[5.877322] (-) TimerEvent: {}
+[5.977761] (-) TimerEvent: {}
+[5.995228] (control_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcontrol_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.020687] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.042842] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.056613] (control_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/get_command__type_support.cpp.o\x1b[0m\n'}
+[6.073941] (control_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/buoyancy_control__type_support.cpp.o\x1b[0m\n'}
+[6.078097] (-) TimerEvent: {}
+[6.081819] (control_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_interfaces/srv/detail/get_task__type_support.cpp.o\x1b[0m\n'}
+[6.086525] (control_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/get_command__type_support.cpp.o\x1b[0m\n'}
+[6.100912] (control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/buoyancy_control__type_support.cpp.o\x1b[0m\n'}
+[6.108467] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.113367] (control_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_interfaces/srv/get_task__type_support.cpp.o\x1b[0m\n'}
+[6.115240] (control_interfaces) StdoutLine: {'line': b'[ 31%] Built target control_interfaces__rosidl_generator_c\n'}
+[6.138558] (control_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/get_command__type_support.cpp.o\x1b[0m\n'}
+[6.168376] (control_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.178342] (-) TimerEvent: {}
+[6.278831] (-) TimerEvent: {}
+[6.379283] (-) TimerEvent: {}
+[6.479753] (-) TimerEvent: {}
+[6.580227] (-) TimerEvent: {}
+[6.680698] (-) TimerEvent: {}
+[6.722738] (control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.780858] (-) TimerEvent: {}
+[6.851642] (control_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.880992] (-) TimerEvent: {}
+[6.890949] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.981211] (-) TimerEvent: {}
+[7.048759] (control_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/get_command__type_support_c.cpp.o\x1b[0m\n'}
+[7.081287] (-) TimerEvent: {}
+[7.137733] (control_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/get_task__type_support.cpp.o\x1b[0m\n'}
+[7.173668] (control_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/get_task__type_support_c.cpp.o\x1b[0m\n'}
+[7.181408] (-) TimerEvent: {}
+[7.281859] (-) TimerEvent: {}
+[7.382366] (-) TimerEvent: {}
+[7.421973] (control_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.483587] (-) TimerEvent: {}
+[7.496264] (control_interfaces) StdoutLine: {'line': b'[ 48%] Built target control_interfaces__rosidl_typesupport_cpp\n'}
+[7.545427] (control_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_interfaces/srv/detail/dds_fastrtps/buoyancy_control__type_support.cpp.o\x1b[0m\n'}
+[7.583751] (-) TimerEvent: {}
+[7.674581] (control_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_interfaces/srv/detail/buoyancy_control__type_support_c.cpp.o\x1b[0m\n'}
+[7.683912] (-) TimerEvent: {}
+[7.784936] (-) TimerEvent: {}
+[7.839330] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.840807] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[7.873942] (control_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c.o\x1b[0m\n'}
+[7.885200] (-) TimerEvent: {}
+[7.907280] (control_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/get_command__type_support.cpp.o\x1b[0m\n'}
+[7.938480] (control_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_task__type_support.c.o\x1b[0m\n'}
+[7.985502] (-) TimerEvent: {}
+[8.003337] (control_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.o\x1b[0m\n'}
+[8.050006] (control_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/get_task__type_support.cpp.o\x1b[0m\n'}
+[8.051369] (control_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_interfaces/srv/buoyancy_control__type_support.cpp.o\x1b[0m\n'}
+[8.059587] (control_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libcontrol_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.085734] (-) TimerEvent: {}
+[8.119284] (control_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.148487] (control_interfaces) StdoutLine: {'line': b'[ 72%] Built target control_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.151094] (control_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.186024] (-) TimerEvent: {}
+[8.231845] (control_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.258574] (control_interfaces) StdoutLine: {'line': b'[ 74%] Built target control_interfaces__rosidl_typesupport_c\n'}
+[8.286263] (-) TimerEvent: {}
+[8.301545] (control_interfaces) StdoutLine: {'line': b'[ 74%] Built target control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.386366] (-) TimerEvent: {}
+[8.426916] (control_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.434262] (control_interfaces) StdoutLine: {'line': b'[ 76%] Built target control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.486663] (-) TimerEvent: {}
+[8.587647] (-) TimerEvent: {}
+[8.613475] (control_interfaces) StdoutLine: {'line': b'[ 76%] Built target control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.675659] (control_interfaces) StdoutLine: {'line': b'[ 76%] Built target control_interfaces\n'}
+[8.687966] (-) TimerEvent: {}
+[8.740783] (control_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.788165] (-) TimerEvent: {}
+[8.888999] (-) TimerEvent: {}
+[8.989781] (-) TimerEvent: {}
+[9.090556] (-) TimerEvent: {}
+[9.191316] (-) TimerEvent: {}
+[9.292006] (-) TimerEvent: {}
+[9.392723] (-) TimerEvent: {}
+[9.493474] (-) TimerEvent: {}
+[9.594229] (-) TimerEvent: {}
+[9.695063] (-) TimerEvent: {}
+[9.762489] (control_interfaces) StdoutLine: {'line': b'[ 78%] Built target control_interfaces__py\n'}
+[9.795301] (-) TimerEvent: {}
+[9.805445] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_generator_py\x1b[0m\n'}
+[9.864076] (control_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_buoyancy_control_s.c.o\x1b[0m\n'}
+[9.865921] (control_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_get_command_s.c.o\x1b[0m\n'}
+[9.866961] (control_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/control_interfaces/srv/_get_task_s.c.o\x1b[0m\n'}
+[9.895397] (-) TimerEvent: {}
+[9.995851] (-) TimerEvent: {}
+[10.096427] (-) TimerEvent: {}
+[10.118692] (control_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/control_interfaces/libcontrol_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.196781] (-) TimerEvent: {}
+[10.229927] (control_interfaces) StdoutLine: {'line': b'[ 87%] Built target control_interfaces__rosidl_generator_py\n'}
+[10.249865] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.250599] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.263406] (control_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.280064] (control_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.287651] (control_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.297064] (-) TimerEvent: {}
+[10.312474] (control_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.397356] (-) TimerEvent: {}
+[10.494616] (control_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.497516] (-) TimerEvent: {}
+[10.548984] (control_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.597772] (-) TimerEvent: {}
+[10.600418] (control_interfaces) StdoutLine: {'line': b'[ 97%] Built target control_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.627016] (control_interfaces) StdoutLine: {'line': b'[ 97%] Built target control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.695292] (control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.697860] (-) TimerEvent: {}
+[10.798462] (-) TimerEvent: {}
+[10.820945] (control_interfaces) StdoutLine: {'line': b'[100%] Built target control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.883010] (control_interfaces) CommandEnded: {'returncode': 0}
+[10.899481] (-) TimerEvent: {}
+[11.001491] (-) TimerEvent: {}
+[11.102483] (-) TimerEvent: {}
+[11.204634] (-) TimerEvent: {}
+[11.245034] (control_interfaces) JobProgress: {'identifier': 'control_interfaces', 'progress': 'install'}
+[11.276210] (control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/AUV_ROS2/build/control_interfaces'], 'cwd': '/home/orangepi/AUV_ROS2/build/control_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.191.52 3711 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/AUV_ROS2/install/control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('PAN_MESA_DEBUG', 'gofaster'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/AUV_ROS2/src'), ('SSH_TTY', '/dev/pts/10'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '155'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/control_interfaces:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('PWD', '/home/orangepi/AUV_ROS2/build/control_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.191.52 3711 192.168.191.89 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/AUV_ROS2/install/control_interfaces:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/control_node:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[11.304942] (-) TimerEvent: {}
+[11.306830] (control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.311017] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/rosidl_interfaces/control_interfaces\n'}
+[11.312923] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.313763] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.314586] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/buoyancy_control.h\n'}
+[11.315309] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.315934] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__functions.c\n'}
+[11.316539] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__struct.h\n'}
+[11.317076] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__struct.h\n'}
+[11.317575] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__struct.h\n'}
+[11.318112] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.h\n'}
+[11.318664] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__functions.c\n'}
+[11.319133] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__functions.h\n'}
+[11.320533] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__functions.c\n'}
+[11.321519] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.h\n'}
+[11.322320] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__functions.h\n'}
+[11.322955] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__functions.h\n'}
+[11.324360] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.h\n'}
+[11.325199] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_task.h\n'}
+[11.325756] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_command.h\n'}
+[11.326249] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg\n'}
+[11.326708] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.327154] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/library_path.sh\n'}
+[11.327580] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/library_path.dsv\n'}
+[11.328112] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so\n'}
+[11.328554] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.328978] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.329808] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.330256] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.330679] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_fastrtps_c.h\n'}
+[11.331872] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_fastrtps_c.h\n'}
+[11.332459] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_fastrtps_c.h\n'}
+[11.332926] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg\n'}
+[11.333350] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.333837] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.334256] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.334807] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.336718] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.337593] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.338128] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_c.h\n'}
+[11.338593] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h\n'}
+[11.339110] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.c\n'}
+[11.339548] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.c\n'}
+[11.339979] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.c\n'}
+[11.340416] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_introspection_c.h\n'}
+[11.340872] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg\n'}
+[11.341369] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.341825] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.342524] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.343718] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so\n'}
+[11.344387] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.344978] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.345670] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.346410] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_task.hpp\n'}
+[11.347158] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/buoyancy_control.hpp\n'}
+[11.349169] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.350579] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__struct.hpp\n'}
+[11.351675] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__builder.hpp\n'}
+[11.352380] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__builder.hpp\n'}
+[11.352843] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__struct.hpp\n'}
+[11.353270] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__traits.hpp\n'}
+[11.354040] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__builder.hpp\n'}
+[11.354568] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__struct.hpp\n'}
+[11.355038] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__traits.hpp\n'}
+[11.355482] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__traits.hpp\n'}
+[11.357195] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_command.hpp\n'}
+[11.357940] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.358566] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.359099] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.359628] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.360235] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/dds_fastrtps\n'}
+[11.360741] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.361262] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.361747] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg\n'}
+[11.362182] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.362667] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.363091] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.363504] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces\n'}
+[11.363915] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv\n'}
+[11.364377] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail\n'}
+[11.364860] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.365283] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.365685] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.cpp\n'}
+[11.366090] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.cpp\n'}
+[11.366493] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.366893] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.cpp\n'}
+[11.367295] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.367700] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.368175] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.368599] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.369011] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/pythonpath.sh\n'}
+[11.369422] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/pythonpath.dsv\n'}
+[11.369829] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info\n'}
+[11.370241] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.370656] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.371069] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.371614] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.372066] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces\n'}
+[11.372579] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.373013] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/__init__.py\n'}
+[11.373444] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.373889] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.374341] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv\n'}
+[11.375240] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_task.py\n'}
+[11.375879] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/__init__.py\n'}
+[11.376414] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_buoyancy_control_s.c\n'}
+[11.376949] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_command_s.c\n'}
+[11.377472] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_buoyancy_control.py\n'}
+[11.378006] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_command.py\n'}
+[11.378524] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_task_s.c\n'}
+[11.379016] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.379492] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.379962] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/libcontrol_interfaces__rosidl_generator_py.so\n'}
+[11.380417] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.405153] (-) TimerEvent: {}
+[11.500621] (control_interfaces) StdoutLine: {'line': b"Listing '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces'...\n"}
+[11.501577] (control_interfaces) StdoutLine: {'line': b"Compiling '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/__init__.py'...\n"}
+[11.502254] (control_interfaces) StdoutLine: {'line': b"Listing '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv'...\n"}
+[11.502847] (control_interfaces) StdoutLine: {'line': b"Compiling '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/__init__.py'...\n"}
+[11.503449] (control_interfaces) StdoutLine: {'line': b"Compiling '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_buoyancy_control.py'...\n"}
+[11.504031] (control_interfaces) StdoutLine: {'line': b"Compiling '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_command.py'...\n"}
+[11.504660] (control_interfaces) StdoutLine: {'line': b"Compiling '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_task.py'...\n"}
+[11.505234] (-) TimerEvent: {}
+[11.525180] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.527785] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[11.530606] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.533795] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[11.535221] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.537433] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[11.557049] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so\n'}
+[11.558750] (control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.559356] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand.idl\n'}
+[11.559823] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask.idl\n'}
+[11.560254] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl.idl\n'}
+[11.560667] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand.srv\n'}
+[11.561144] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand_Request.msg\n'}
+[11.561618] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand_Response.msg\n'}
+[11.562036] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask.srv\n'}
+[11.564708] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask_Request.msg\n'}
+[11.565285] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask_Response.msg\n'}
+[11.565729] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl.srv\n'}
+[11.566149] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl_Request.msg\n'}
+[11.566567] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl_Response.msg\n'}
+[11.566974] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/package_run_dependencies/control_interfaces\n'}
+[11.567380] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/parent_prefix_path/control_interfaces\n'}
+[11.567780] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.sh\n'}
+[11.568243] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.568650] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/path.sh\n'}
+[11.569048] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/path.dsv\n'}
+[11.569460] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.bash\n'}
+[11.569861] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.sh\n'}
+[11.570259] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.zsh\n'}
+[11.570663] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.dsv\n'}
+[11.571075] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.dsv\n'}
+[11.571740] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/packages/control_interfaces\n'}
+[11.579034] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.580756] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.582986] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.583677] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.584130] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.584601] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.585070] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.585477] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.585884] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.586291] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.586689] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.587084] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.587481] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.587915] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.588332] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.588728] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.589118] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.589512] (control_interfaces) StdoutLine: {'line': b'-- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.589911] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.590305] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.590704] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.605674] (-) TimerEvent: {}
+[11.606981] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.608976] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.610620] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.611755] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig.cmake\n'}
+[11.613294] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig-version.cmake\n'}
+[11.614720] (control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.xml\n'}
+[11.616037] (control_interfaces) CommandEnded: {'returncode': 0}
+[11.705891] (-) TimerEvent: {}
+[11.806659] (-) TimerEvent: {}
+[11.908203] (-) TimerEvent: {}
+[12.009099] (-) TimerEvent: {}
+[12.110550] (-) TimerEvent: {}
+[12.169726] (control_interfaces) JobEnded: {'identifier': 'control_interfaces', 'rc': 0}
+[12.171064] (-) EventReactorShutdown: {}

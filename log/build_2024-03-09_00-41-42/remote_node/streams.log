@@ -1,0 +1,35 @@
+[4.093s] Invoking command in '/home/orangepi/AUV_ROS2/src/remote_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed
+[4.737s] running egg_info
+[4.738s] creating ../../build/remote_node/remote_node.egg-info
+[4.739s] writing ../../build/remote_node/remote_node.egg-info/PKG-INFO
+[4.739s] writing dependency_links to ../../build/remote_node/remote_node.egg-info/dependency_links.txt
+[4.740s] writing entry points to ../../build/remote_node/remote_node.egg-info/entry_points.txt
+[4.740s] writing requirements to ../../build/remote_node/remote_node.egg-info/requires.txt
+[4.741s] writing top-level names to ../../build/remote_node/remote_node.egg-info/top_level.txt
+[4.741s] writing manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'
+[4.742s] reading manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'
+[4.744s] writing manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'
+[4.745s] running build
+[4.745s] running build_py
+[4.746s] creating /home/orangepi/AUV_ROS2/build/remote_node/build
+[4.746s] creating /home/orangepi/AUV_ROS2/build/remote_node/build/lib
+[4.747s] creating /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node
+[4.747s] copying remote_node/__init__.py -> /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node
+[4.748s] running install
+[4.749s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.749s]   warnings.warn(
+[4.750s] running install_lib
+[4.750s] creating /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node
+[4.750s] copying /home/orangepi/AUV_ROS2/build/remote_node/build/lib/remote_node/__init__.py -> /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node
+[4.751s] byte-compiling /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node/__init__.py to __init__.cpython-310.pyc
+[4.751s] running install_data
+[4.752s] creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index
+[4.752s] creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index
+[4.753s] creating /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index/packages
+[4.753s] copying resource/remote_node -> /home/orangepi/AUV_ROS2/install/remote_node/share/ament_index/resource_index/packages
+[4.754s] copying package.xml -> /home/orangepi/AUV_ROS2/install/remote_node/share/remote_node
+[4.754s] running install_egg_info
+[4.755s] Copying ../../build/remote_node/remote_node.egg-info to /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node-0.0.0-py3.10.egg-info
+[4.755s] running install_scripts
+[4.787s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/remote_node/install.log'
+[5.074s] Invoked command in '/home/orangepi/AUV_ROS2/src/remote_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed

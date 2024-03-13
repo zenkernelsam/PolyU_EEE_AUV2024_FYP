@@ -1,0 +1,22 @@
+[3.931s] Invoking command in '/home/orangepi/AUV_ROS2/src/remote_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed
+[4.685s] running egg_info
+[4.686s] writing ../../build/remote_node/remote_node.egg-info/PKG-INFO
+[4.687s] writing dependency_links to ../../build/remote_node/remote_node.egg-info/dependency_links.txt
+[4.690s] writing entry points to ../../build/remote_node/remote_node.egg-info/entry_points.txt
+[4.691s] writing requirements to ../../build/remote_node/remote_node.egg-info/requires.txt
+[4.692s] writing top-level names to ../../build/remote_node/remote_node.egg-info/top_level.txt
+[4.693s] reading manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'
+[4.694s] writing manifest file '../../build/remote_node/remote_node.egg-info/SOURCES.txt'
+[4.695s] running build
+[4.696s] running build_py
+[4.697s] running install
+[4.698s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.699s]   warnings.warn(
+[4.700s] running install_lib
+[4.701s] running install_data
+[4.702s] running install_egg_info
+[4.702s] removing '/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node-0.0.0-py3.10.egg-info' (and everything under it)
+[4.703s] Copying ../../build/remote_node/remote_node.egg-info to /home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages/remote_node-0.0.0-py3.10.egg-info
+[4.704s] running install_scripts
+[4.737s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/remote_node/install.log'
+[4.946s] Invoked command in '/home/orangepi/AUV_ROS2/src/remote_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed
