@@ -1,0 +1,3 @@
+[console_scripts]
+capture_image = facer_input.capture_image:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+q_gate_detect = q_gate_detection.q_gate_detect:main
+

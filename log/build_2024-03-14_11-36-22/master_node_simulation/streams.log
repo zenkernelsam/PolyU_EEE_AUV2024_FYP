@@ -1,0 +1,23 @@
+[5.689s] Invoking command in '/home/orangepi/AUV_ROS2/src/master_node_simulation': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed
+[6.334s] running egg_info
+[6.335s] writing ../../build/master_node_simulation/master_node_simulation.egg-info/PKG-INFO
+[6.336s] writing dependency_links to ../../build/master_node_simulation/master_node_simulation.egg-info/dependency_links.txt
+[6.337s] writing entry points to ../../build/master_node_simulation/master_node_simulation.egg-info/entry_points.txt
+[6.338s] writing requirements to ../../build/master_node_simulation/master_node_simulation.egg-info/requires.txt
+[6.341s] writing top-level names to ../../build/master_node_simulation/master_node_simulation.egg-info/top_level.txt
+[6.342s] reading manifest file '../../build/master_node_simulation/master_node_simulation.egg-info/SOURCES.txt'
+[6.343s] writing manifest file '../../build/master_node_simulation/master_node_simulation.egg-info/SOURCES.txt'
+[6.344s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.345s]   warnings.warn(
+[6.349s] running build
+[6.350s] running build_py
+[6.350s] running install
+[6.351s] running install_lib
+[6.352s] running install_data
+[6.355s] running install_egg_info
+[6.357s] removing '/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation-0.0.0-py3.10.egg-info' (and everything under it)
+[6.358s] Copying ../../build/master_node_simulation/master_node_simulation.egg-info to /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation-0.0.0-py3.10.egg-info
+[6.361s] running install_scripts
+[6.383s] Installing master_node script to /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/master_node_simulation
+[6.385s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/master_node_simulation/install.log'
+[6.560s] Invoked command in '/home/orangepi/AUV_ROS2/src/master_node_simulation' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed

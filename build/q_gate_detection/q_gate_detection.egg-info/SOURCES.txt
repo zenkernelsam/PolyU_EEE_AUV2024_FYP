@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/q_gate_detection/q_gate_detection.egg-info/PKG-INFO
+../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt
+../../build/q_gate_detection/q_gate_detection.egg-info/dependency_links.txt
+../../build/q_gate_detection/q_gate_detection.egg-info/entry_points.txt
+../../build/q_gate_detection/q_gate_detection.egg-info/requires.txt
+../../build/q_gate_detection/q_gate_detection.egg-info/top_level.txt
+../../build/q_gate_detection/q_gate_detection.egg-info/zip-safe
+q_gate_detection/__init__.py
+q_gate_detection/q_gate_detect.py
+q_gate_detection/q_gate_detect_functions.py
+resource/q_gate_detection
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,8 @@
+setup.py
+facer_interfaces/__init__.py
+facer_interfaces.egg-info/PKG-INFO
+facer_interfaces.egg-info/SOURCES.txt
+facer_interfaces.egg-info/dependency_links.txt
+facer_interfaces.egg-info/top_level.txt
+facer_interfaces/srv/__init__.py
+facer_interfaces/srv/_detection_result.py

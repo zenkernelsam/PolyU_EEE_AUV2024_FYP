@@ -1,0 +1,41 @@
+[4.717s] Invoking command in '/home/orangepi/AUV_ROS2/src/facer_input': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed
+[5.069s] running egg_info
+[5.071s] creating ../../build/facer_input/facer_input.egg-info
+[5.073s] writing ../../build/facer_input/facer_input.egg-info/PKG-INFO
+[5.075s] writing dependency_links to ../../build/facer_input/facer_input.egg-info/dependency_links.txt
+[5.080s] writing entry points to ../../build/facer_input/facer_input.egg-info/entry_points.txt
+[5.081s] writing requirements to ../../build/facer_input/facer_input.egg-info/requires.txt
+[5.082s] writing top-level names to ../../build/facer_input/facer_input.egg-info/top_level.txt
+[5.083s] writing manifest file '../../build/facer_input/facer_input.egg-info/SOURCES.txt'
+[5.086s] reading manifest file '../../build/facer_input/facer_input.egg-info/SOURCES.txt'
+[5.095s] writing manifest file '../../build/facer_input/facer_input.egg-info/SOURCES.txt'
+[5.096s] running build
+[5.097s] running build_py
+[5.098s] creating /home/orangepi/AUV_ROS2/build/facer_input/build
+[5.099s] creating /home/orangepi/AUV_ROS2/build/facer_input/build/lib
+[5.100s] creating /home/orangepi/AUV_ROS2/build/facer_input/build/lib/facer_input
+[5.101s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.102s]   warnings.warn(
+[5.103s] copying facer_input/capture_image.py -> /home/orangepi/AUV_ROS2/build/facer_input/build/lib/facer_input
+[5.105s] copying facer_input/__init__.py -> /home/orangepi/AUV_ROS2/build/facer_input/build/lib/facer_input
+[5.109s] running install
+[5.110s] running install_lib
+[5.112s] creating /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input
+[5.120s] copying /home/orangepi/AUV_ROS2/build/facer_input/build/lib/facer_input/capture_image.py -> /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input
+[5.121s] copying /home/orangepi/AUV_ROS2/build/facer_input/build/lib/facer_input/__init__.py -> /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input
+[5.124s] byte-compiling /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input/capture_image.py to capture_image.cpython-310.pyc
+[5.125s] byte-compiling /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input/__init__.py to __init__.cpython-310.pyc
+[5.126s] running install_data
+[5.137s] creating /home/orangepi/AUV_ROS2/install/facer_input/share/ament_index
+[5.139s] creating /home/orangepi/AUV_ROS2/install/facer_input/share/ament_index/resource_index
+[5.140s] creating /home/orangepi/AUV_ROS2/install/facer_input/share/ament_index/resource_index/packages
+[5.141s] copying resource/facer_input -> /home/orangepi/AUV_ROS2/install/facer_input/share/ament_index/resource_index/packages
+[5.144s] copying package.xml -> /home/orangepi/AUV_ROS2/install/facer_input/share/facer_input
+[5.145s] copying launch/python_parameters_launch.pyZone.Identifier -> /home/orangepi/AUV_ROS2/install/facer_input/share/facer_input
+[5.146s] copying launch/python_parameters_launch.py -> /home/orangepi/AUV_ROS2/install/facer_input/share/facer_input
+[5.147s] running install_egg_info
+[5.163s] Copying ../../build/facer_input/facer_input.egg-info to /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input-0.0.0-py3.10.egg-info
+[5.177s] running install_scripts
+[5.187s] Installing capture_image script to /home/orangepi/AUV_ROS2/install/facer_input/lib/facer_input
+[5.188s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/facer_input/install.log'
+[5.433s] Invoked command in '/home/orangepi/AUV_ROS2/src/facer_input' returned '0': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed

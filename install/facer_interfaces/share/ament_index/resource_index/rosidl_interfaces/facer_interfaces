@@ -1,0 +1,4 @@
+srv/DetectionResult.idl
+srv/DetectionResult.srv
+srv/DetectionResult_Request.msg
+srv/DetectionResult_Response.msg

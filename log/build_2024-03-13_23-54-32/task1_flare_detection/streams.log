@@ -1,0 +1,42 @@
+[3.958s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed
+[4.680s] running egg_info
+[4.682s] creating ../../build/task1_flare_detection/task1_flare_detection.egg-info
+[4.684s] writing ../../build/task1_flare_detection/task1_flare_detection.egg-info/PKG-INFO
+[4.685s] writing dependency_links to ../../build/task1_flare_detection/task1_flare_detection.egg-info/dependency_links.txt
+[4.686s] writing entry points to ../../build/task1_flare_detection/task1_flare_detection.egg-info/entry_points.txt
+[4.686s] writing requirements to ../../build/task1_flare_detection/task1_flare_detection.egg-info/requires.txt
+[4.687s] writing top-level names to ../../build/task1_flare_detection/task1_flare_detection.egg-info/top_level.txt
+[4.688s] writing manifest file '../../build/task1_flare_detection/task1_flare_detection.egg-info/SOURCES.txt'
+[4.702s] reading manifest file '../../build/task1_flare_detection/task1_flare_detection.egg-info/SOURCES.txt'
+[4.709s] writing manifest file '../../build/task1_flare_detection/task1_flare_detection.egg-info/SOURCES.txt'
+[4.711s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.713s]   warnings.warn(
+[4.722s] running build
+[4.722s] running build_py
+[4.723s] creating /home/orangepi/AUV_ROS2/build/task1_flare_detection/build
+[4.726s] creating /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib
+[4.727s] creating /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection
+[4.728s] copying task1_flare_detection/__init__.py -> /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection
+[4.729s] copying task1_flare_detection/flare_detection_function.py -> /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection
+[4.729s] copying task1_flare_detection/flare_detection.py -> /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection
+[4.730s] running install
+[4.731s] running install_lib
+[4.738s] creating /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection
+[4.744s] copying /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection/__init__.py -> /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection
+[4.747s] copying /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection/flare_detection_function.py -> /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection
+[4.749s] copying /home/orangepi/AUV_ROS2/build/task1_flare_detection/build/lib/task1_flare_detection/flare_detection.py -> /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection
+[4.751s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection/__init__.py to __init__.cpython-310.pyc
+[4.753s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection/flare_detection_function.py to flare_detection_function.cpython-310.pyc
+[4.755s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection/flare_detection.py to flare_detection.cpython-310.pyc
+[4.757s] running install_data
+[4.761s] creating /home/orangepi/AUV_ROS2/install/task1_flare_detection/share/ament_index
+[4.762s] creating /home/orangepi/AUV_ROS2/install/task1_flare_detection/share/ament_index/resource_index
+[4.765s] creating /home/orangepi/AUV_ROS2/install/task1_flare_detection/share/ament_index/resource_index/packages
+[4.767s] copying resource/task1_flare_detection -> /home/orangepi/AUV_ROS2/install/task1_flare_detection/share/ament_index/resource_index/packages
+[4.770s] copying package.xml -> /home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection
+[4.771s] running install_egg_info
+[4.780s] Copying ../../build/task1_flare_detection/task1_flare_detection.egg-info to /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection-0.0.0-py3.10.egg-info
+[4.781s] running install_scripts
+[4.784s] Installing flare_detection script to /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/task1_flare_detection
+[4.785s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log'
+[4.896s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection' returned '0': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed

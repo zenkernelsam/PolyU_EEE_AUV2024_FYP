@@ -1,0 +1,3 @@
+[console_scripts]
+drum_detection = task2_drum_detection.drum_detection:main
+

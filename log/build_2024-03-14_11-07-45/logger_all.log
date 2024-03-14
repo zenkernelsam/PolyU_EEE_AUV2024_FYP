@@ -1,0 +1,866 @@
+[1.388s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.388s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faa0a5d80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faa58f9d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faa58f9d0>>)
+[1.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.494s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/AUV_ROS2'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extensions ['ignore', 'ignore_ament_install']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extension 'ignore'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extension 'ignore_ament_install'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extensions ['colcon_pkg']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extension 'colcon_pkg'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extensions ['colcon_meta']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extension 'colcon_meta'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extensions ['ros']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/buoyancy_node) by extension 'ros'
+[1.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/buoyancy_node' with type 'ros.ament_python' and name 'buoyancy_node'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ignore'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ignore_ament_install'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['colcon_pkg']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'colcon_pkg'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['colcon_meta']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'colcon_meta'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extensions ['ros']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_interfaces) by extension 'ros'
+[1.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_interfaces' with type 'ros.ament_cmake' and name 'control_interfaces'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['ignore', 'ignore_ament_install']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ignore'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ignore_ament_install'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['colcon_pkg']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'colcon_pkg'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['colcon_meta']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'colcon_meta'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extensions ['ros']
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_node) by extension 'ros'
+[1.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_node' with type 'ros.ament_python' and name 'control_node'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extensions ['ignore', 'ignore_ament_install']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extension 'ignore'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extension 'ignore_ament_install'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extensions ['colcon_pkg']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extension 'colcon_pkg'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extensions ['colcon_meta']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extension 'colcon_meta'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extensions ['ros']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_input) by extension 'ros'
+[1.530s] DEBUG:colcon.colcon_core.package_identification:Package 'src/facer_input' with type 'ros.ament_python' and name 'facer_input'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extension 'ignore'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extension 'ignore_ament_install'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extensions ['colcon_pkg']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extension 'colcon_pkg'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extensions ['colcon_meta']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extension 'colcon_meta'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extensions ['ros']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/facer_interfaces) by extension 'ros'
+[1.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/facer_interfaces' with type 'ros.ament_cmake' and name 'facer_interfaces'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extensions ['ignore', 'ignore_ament_install']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extension 'ignore'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extension 'ignore_ament_install'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extensions ['colcon_pkg']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extension 'colcon_pkg'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extensions ['colcon_meta']
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extension 'colcon_meta'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extensions ['ros']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node) by extension 'ros'
+[1.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/master_node' with type 'ros.ament_python' and name 'master_node'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extension 'ignore'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extension 'ignore_ament_install'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extensions ['colcon_pkg']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extension 'colcon_pkg'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extensions ['colcon_meta']
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extension 'colcon_meta'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extensions ['ros']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/master_node_simulation) by extension 'ros'
+[1.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/master_node_simulation' with type 'ros.ament_python' and name 'master_node_simulation'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extension 'ignore'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extension 'ignore_ament_install'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extensions ['colcon_pkg']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extension 'colcon_pkg'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extensions ['colcon_meta']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extension 'colcon_meta'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extensions ['ros']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/q_gate_detection) by extension 'ros'
+[1.538s] DEBUG:colcon.colcon_core.package_identification:Package 'src/q_gate_detection' with type 'ros.ament_python' and name 'q_gate_detection'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extension 'ignore'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extension 'ignore_ament_install'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extensions ['colcon_pkg']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extension 'colcon_pkg'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extensions ['colcon_meta']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extension 'colcon_meta'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extensions ['ros']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/remote_node) by extension 'ros'
+[1.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/remote_node' with type 'ros.ament_python' and name 'remote_node'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extensions ['ignore', 'ignore_ament_install']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extension 'ignore'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_auv) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'src/start_auv' with type 'ros.ament_python' and name 'start_auv'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extension 'ignore'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extension 'ignore_ament_install'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extensions ['colcon_pkg']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extension 'colcon_pkg'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extensions ['colcon_meta']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extension 'colcon_meta'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extensions ['ros']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_flare_detection) by extension 'ros'
+[1.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task1_flare_detection' with type 'ros.ament_python' and name 'task1_flare_detection'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extension 'ignore'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extension 'colcon_pkg'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extensions ['colcon_meta']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extension 'colcon_meta'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extensions ['ros']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_gate_detection) by extension 'ros'
+[1.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task1_gate_detection' with type 'ros.ament_python' and name 'task1_gate_detection'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extensions ['ignore', 'ignore_ament_install']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extension 'ignore'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/task1_node) by extension 'ros'
+[1.547s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task1_node' with type 'ros.ament_python' and name 'task1_node'
+[1.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extension 'ignore'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extension 'ignore_ament_install'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extensions ['colcon_pkg']
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extension 'colcon_pkg'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extensions ['colcon_meta']
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extension 'colcon_meta'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extensions ['ros']
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_drum_detection) by extension 'ros'
+[1.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task2_drum_detection' with type 'ros.ament_python' and name 'task2_drum_detection'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extensions ['ignore', 'ignore_ament_install']
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extension 'ignore'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extension 'ignore_ament_install'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extensions ['colcon_pkg']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extension 'colcon_pkg'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extensions ['colcon_meta']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extension 'colcon_meta'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extensions ['ros']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/task2_node) by extension 'ros'
+[1.551s] DEBUG:colcon.colcon_core.package_identification:Package 'src/task2_node' with type 'ros.ament_python' and name 'task2_node'
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_target' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'buoyancy_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.672s] DEBUG:colcon.colcon_core.verb:Building package 'buoyancy_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/buoyancy_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/buoyancy_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/buoyancy_node', 'symlink_install': False, 'test_result_base': None}
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.692s] DEBUG:colcon.colcon_core.verb:Building package 'control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/control_interfaces', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/control_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_target' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.711s] DEBUG:colcon.colcon_core.verb:Building package 'control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/control_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/control_node', 'symlink_install': False, 'test_result_base': None}
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.731s] Level 5:colcon.colcon_core.verb:set package 'facer_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.731s] DEBUG:colcon.colcon_core.verb:Building package 'facer_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/facer_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/facer_interfaces', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/facer_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_args' from command line to 'None'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_target' from command line to 'None'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.750s] Level 5:colcon.colcon_core.verb:set package 'master_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.750s] DEBUG:colcon.colcon_core.verb:Building package 'master_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/master_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/master_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/master_node', 'symlink_install': False, 'test_result_base': None}
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_target' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.770s] Level 5:colcon.colcon_core.verb:set package 'remote_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.770s] DEBUG:colcon.colcon_core.verb:Building package 'remote_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/remote_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/remote_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/remote_node', 'symlink_install': False, 'test_result_base': None}
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_args' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_target' from command line to 'None'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_clean_cache' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_clean_first' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'cmake_force_configure' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'ament_cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'catkin_cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'start_auv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.790s] DEBUG:colcon.colcon_core.verb:Building package 'start_auv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/start_auv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/start_auv', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/start_auv', 'symlink_install': False, 'test_result_base': None}
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_args' from command line to 'None'
+[1.808s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_target' from command line to 'None'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.809s] Level 5:colcon.colcon_core.verb:set package 'task1_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.809s] DEBUG:colcon.colcon_core.verb:Building package 'task1_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/task1_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/task1_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/task1_node', 'symlink_install': False, 'test_result_base': None}
+[1.827s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_args' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_target' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'task2_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.828s] DEBUG:colcon.colcon_core.verb:Building package 'task2_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/task2_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/task2_node', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/task2_node', 'symlink_install': False, 'test_result_base': None}
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_target' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_clean_cache' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_clean_first' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'cmake_force_configure' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'ament_cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'catkin_cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'facer_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.847s] DEBUG:colcon.colcon_core.verb:Building package 'facer_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/facer_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/facer_input', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/facer_input', 'symlink_install': False, 'test_result_base': None}
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_target' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'master_node_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.866s] DEBUG:colcon.colcon_core.verb:Building package 'master_node_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/master_node_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/master_node_simulation', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/master_node_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_target' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_clean_first' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'cmake_force_configure' from command line to 'False'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'ament_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.884s] Level 5:colcon.colcon_core.verb:set package 'q_gate_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.885s] DEBUG:colcon.colcon_core.verb:Building package 'q_gate_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/q_gate_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/q_gate_detection', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/q_gate_detection', 'symlink_install': False, 'test_result_base': None}
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_args' from command line to 'None'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_target' from command line to 'None'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_clean_first' from command line to 'False'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'cmake_force_configure' from command line to 'False'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'ament_cmake_args' from command line to 'None'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.903s] Level 5:colcon.colcon_core.verb:set package 'task1_flare_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.903s] DEBUG:colcon.colcon_core.verb:Building package 'task1_flare_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/task1_flare_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/task1_flare_detection', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/task1_flare_detection', 'symlink_install': False, 'test_result_base': None}
+[1.921s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_args' from command line to 'None'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_target' from command line to 'None'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_clean_first' from command line to 'False'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'cmake_force_configure' from command line to 'False'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'ament_cmake_args' from command line to 'None'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.922s] Level 5:colcon.colcon_core.verb:set package 'task1_gate_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.922s] DEBUG:colcon.colcon_core.verb:Building package 'task1_gate_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/task1_gate_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/task1_gate_detection', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/task1_gate_detection', 'symlink_install': False, 'test_result_base': None}
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_target' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_clean_first' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'cmake_force_configure' from command line to 'False'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'ament_cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.941s] Level 5:colcon.colcon_core.verb:set package 'task2_drum_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.941s] DEBUG:colcon.colcon_core.verb:Building package 'task2_drum_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/AUV_ROS2/build/task2_drum_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/AUV_ROS2/install/task2_drum_detection', 'merge_install': False, 'path': '/home/orangepi/AUV_ROS2/src/task2_drum_detection', 'symlink_install': False, 'test_result_base': None}
+[1.959s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/facer_interfaces' with build type 'ament_cmake'
+[1.980s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/AUV_ROS2/src/facer_interfaces'
+[2.014s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.106s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/buoyancy_node' with build type 'ament_python'
+[2.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('buoyancy_node', 'ament_prefix_path')
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/ament_prefix_path.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/ament_prefix_path.dsv'
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/ament_prefix_path.sh'
+[2.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/control_interfaces' with build type 'ament_cmake'
+[2.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/AUV_ROS2/src/control_interfaces'
+[2.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.330s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/control_node' with build type 'ament_python'
+[2.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_node', 'ament_prefix_path')
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/ament_prefix_path.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/ament_prefix_path.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/ament_prefix_path.sh'
+[2.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.450s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/master_node' with build type 'ament_python'
+[2.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('master_node', 'ament_prefix_path')
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/ament_prefix_path.ps1'
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/ament_prefix_path.dsv'
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/ament_prefix_path.sh'
+[2.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.568s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/remote_node' with build type 'ament_python'
+[2.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_node', 'ament_prefix_path')
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/ament_prefix_path.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/ament_prefix_path.dsv'
+[2.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/ament_prefix_path.sh'
+[2.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.711s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/start_auv' with build type 'ament_python'
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('start_auv', 'ament_prefix_path')
+[2.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/ament_prefix_path.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/ament_prefix_path.dsv'
+[2.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/ament_prefix_path.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.830s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/task1_node' with build type 'ament_python'
+[2.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_node', 'ament_prefix_path')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/ament_prefix_path.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/ament_prefix_path.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/ament_prefix_path.sh'
+[2.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/build/facer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/facer_interfaces -- -j8 -l8
+[3.389s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/buoyancy_node'
+[3.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/control_interfaces -- -j8 -l8
+[3.946s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/control_node'
+[3.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.481s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/master_node'
+[4.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/remote_node'
+[5.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/start_auv'
+[5.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/build/facer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/facer_interfaces -- -j8 -l8
+[6.149s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/task1_node'
+[6.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/control_interfaces -- -j8 -l8
+[6.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/build/facer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/facer_interfaces
+[6.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(facer_interfaces)
+[6.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/build/facer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/facer_interfaces
+[6.513s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces' for CMake module files
+[6.514s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces' for CMake config files
+[6.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_interfaces', 'cmake_prefix_path')
+[6.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.ps1'
+[6.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.dsv'
+[6.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.sh'
+[6.539s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib'
+[6.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_interfaces', 'ld_library_path_lib')
+[6.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.ps1'
+[6.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.dsv'
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.sh'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/bin'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib/pkgconfig/facer_interfaces.pc'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib/python3.10/site-packages'
+[6.562s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/bin'
+[6.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.ps1'
+[6.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.dsv'
+[6.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.sh'
+[6.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.bash'
+[6.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.zsh'
+[6.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/facer_interfaces/share/colcon-core/packages/facer_interfaces)
+[6.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/control_interfaces
+[6.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_interfaces)
+[6.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/control_interfaces
+[6.937s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces' for CMake module files
+[6.938s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces' for CMake config files
+[6.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'cmake_prefix_path')
+[6.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.ps1'
+[6.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.dsv'
+[7.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.sh'
+[7.005s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib'
+[7.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'ld_library_path_lib')
+[7.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.ps1'
+[7.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.dsv'
+[7.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.sh'
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/bin'
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib/pkgconfig/control_interfaces.pc'
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib/python3.10/site-packages'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/bin'
+[7.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.ps1'
+[7.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.dsv'
+[7.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.sh'
+[7.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.bash'
+[7.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.zsh'
+[7.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/control_interfaces/share/colcon-core/packages/control_interfaces)
+[7.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/master_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node/prefix_override:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/orangepi/AUV_ROS2/build/master_node/build install --record /home/orangepi/AUV_ROS2/build/master_node/install.log --single-version-externally-managed
+[7.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(facer_interfaces)
+[7.222s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces' for CMake module files
+[7.223s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces' for CMake config files
+[7.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_interfaces', 'cmake_prefix_path')
+[7.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.ps1'
+[7.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.dsv'
+[7.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/cmake_prefix_path.sh'
+[7.251s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib'
+[7.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_interfaces', 'ld_library_path_lib')
+[7.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.ps1'
+[7.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.dsv'
+[7.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/hook/ld_library_path_lib.sh'
+[7.275s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/bin'
+[7.275s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib/pkgconfig/facer_interfaces.pc'
+[7.276s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/lib/python3.10/site-packages'
+[7.276s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_interfaces/bin'
+[7.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.ps1'
+[7.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.dsv'
+[7.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.sh'
+[7.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.bash'
+[7.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.zsh'
+[7.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/facer_interfaces/share/colcon-core/packages/facer_interfaces)
+[7.306s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/task2_node' with build type 'ament_python'
+[7.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2_node', 'ament_prefix_path')
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/ament_prefix_path.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/ament_prefix_path.dsv'
+[7.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/ament_prefix_path.sh'
+[7.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/control_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed
+[7.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/start_auv': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed
+[7.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/remote_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed
+[8.506s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/task2_node'
+[8.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/start_auv' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed
+[8.675s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv' for CMake module files
+[8.675s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv' for CMake config files
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv/lib'
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv/bin'
+[8.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv/lib/pkgconfig/start_auv.pc'
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages'
+[8.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('start_auv', 'pythonpath')
+[8.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/pythonpath.ps1'
+[8.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/pythonpath.dsv'
+[8.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/hook/pythonpath.sh'
+[8.698s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/start_auv/bin'
+[8.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(start_auv)
+[8.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/package.ps1'
+[8.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/package.dsv'
+[8.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/package.sh'
+[8.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/package.bash'
+[8.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/start_auv/share/start_auv/package.zsh'
+[8.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/start_auv/share/colcon-core/packages/start_auv)
+[8.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_interfaces)
+[8.764s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces' for CMake module files
+[8.765s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces' for CMake config files
+[8.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'cmake_prefix_path')
+[8.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.ps1'
+[8.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.dsv'
+[8.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/cmake_prefix_path.sh'
+[8.787s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib'
+[8.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_interfaces', 'ld_library_path_lib')
+[8.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.ps1'
+[8.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.dsv'
+[8.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/hook/ld_library_path_lib.sh'
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/bin'
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib/pkgconfig/control_interfaces.pc'
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/lib/python3.10/site-packages'
+[8.808s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_interfaces/bin'
+[8.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.ps1'
+[8.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.dsv'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.sh'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.bash'
+[8.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.zsh'
+[8.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/control_interfaces/share/colcon-core/packages/control_interfaces)
+[8.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/task1_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed
+[8.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/buoyancy_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/buoyancy_node/prefix_override:/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/buoyancy_node build --build-base /home/orangepi/AUV_ROS2/build/buoyancy_node/build install --record /home/orangepi/AUV_ROS2/build/buoyancy_node/install.log --single-version-externally-managed
+[8.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/master_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node/prefix_override:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/orangepi/AUV_ROS2/build/master_node/build install --record /home/orangepi/AUV_ROS2/build/master_node/install.log --single-version-externally-managed
+[8.872s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node' for CMake module files
+[8.872s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node' for CMake config files
+[8.873s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node/lib'
+[8.873s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node/bin'
+[8.874s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node/lib/pkgconfig/master_node.pc'
+[8.874s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages'
+[8.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('master_node', 'pythonpath')
+[8.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/pythonpath.ps1'
+[8.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/pythonpath.dsv'
+[8.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/hook/pythonpath.sh'
+[8.896s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node/bin'
+[8.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(master_node)
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/package.ps1'
+[8.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/package.dsv'
+[8.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/package.sh'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/package.bash'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node/share/master_node/package.zsh'
+[8.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/master_node/share/colcon-core/packages/master_node)
+[8.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/remote_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/remote_node/prefix_override:/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_node build --build-base /home/orangepi/AUV_ROS2/build/remote_node/build install --record /home/orangepi/AUV_ROS2/build/remote_node/install.log --single-version-externally-managed
+[8.941s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node' for CMake module files
+[8.942s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node' for CMake config files
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node/lib'
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node/bin'
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node/lib/pkgconfig/remote_node.pc'
+[8.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node/lib/python3.10/site-packages'
+[8.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('remote_node', 'pythonpath')
+[8.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/pythonpath.ps1'
+[8.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/pythonpath.dsv'
+[8.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/hook/pythonpath.sh'
+[8.969s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/remote_node/bin'
+[8.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(remote_node)
+[8.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/package.ps1'
+[8.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/package.dsv'
+[8.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/package.sh'
+[8.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/package.bash'
+[8.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/remote_node/share/remote_node/package.zsh'
+[8.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/remote_node/share/colcon-core/packages/remote_node)
+[8.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/control_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed
+[9.016s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node' for CMake module files
+[9.017s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node' for CMake config files
+[9.017s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node/lib'
+[9.018s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node/bin'
+[9.018s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node/lib/pkgconfig/control_node.pc'
+[9.018s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages'
+[9.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_node', 'pythonpath')
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/pythonpath.ps1'
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/pythonpath.dsv'
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/hook/pythonpath.sh'
+[9.042s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/control_node/bin'
+[9.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_node)
+[9.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.ps1'
+[9.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.dsv'
+[9.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.sh'
+[9.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.bash'
+[9.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.zsh'
+[9.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/control_node/share/colcon-core/packages/control_node)
+[9.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/facer_input' with build type 'ament_python'
+[9.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_input', 'ament_prefix_path')
+[9.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/ament_prefix_path.ps1'
+[9.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/ament_prefix_path.dsv'
+[9.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/ament_prefix_path.sh'
+[9.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.111s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.198s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/master_node_simulation' with build type 'ament_python'
+[9.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('master_node_simulation', 'ament_prefix_path')
+[9.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/ament_prefix_path.ps1'
+[9.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/ament_prefix_path.dsv'
+[9.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/ament_prefix_path.sh'
+[9.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.411s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/q_gate_detection' with build type 'ament_python'
+[9.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('q_gate_detection', 'ament_prefix_path')
+[9.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/ament_prefix_path.ps1'
+[9.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/ament_prefix_path.dsv'
+[9.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/ament_prefix_path.sh'
+[9.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.546s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/task1_flare_detection' with build type 'ament_python'
+[9.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_flare_detection', 'ament_prefix_path')
+[9.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/ament_prefix_path.ps1'
+[9.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/ament_prefix_path.dsv'
+[9.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/ament_prefix_path.sh'
+[9.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.705s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/task1_gate_detection' with build type 'ament_python'
+[9.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_gate_detection', 'ament_prefix_path')
+[9.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/ament_prefix_path.ps1'
+[9.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/ament_prefix_path.dsv'
+[9.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/ament_prefix_path.sh'
+[9.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/task1_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_node/prefix_override:/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_node build --build-base /home/orangepi/AUV_ROS2/build/task1_node/build install --record /home/orangepi/AUV_ROS2/build/task1_node/install.log --single-version-externally-managed
+[9.859s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node' for CMake module files
+[9.860s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node' for CMake config files
+[9.861s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node/lib'
+[9.861s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node/bin'
+[9.861s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node/lib/pkgconfig/task1_node.pc'
+[9.861s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node/lib/python3.10/site-packages'
+[9.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_node', 'pythonpath')
+[9.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/pythonpath.ps1'
+[9.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/pythonpath.dsv'
+[9.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/hook/pythonpath.sh'
+[9.883s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_node/bin'
+[9.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task1_node)
+[9.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/package.ps1'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/package.dsv'
+[9.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/package.sh'
+[9.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/package.bash'
+[9.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_node/share/task1_node/package.zsh'
+[9.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/task1_node/share/colcon-core/packages/task1_node)
+[9.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/buoyancy_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/buoyancy_node/prefix_override:/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/buoyancy_node build --build-base /home/orangepi/AUV_ROS2/build/buoyancy_node/build install --record /home/orangepi/AUV_ROS2/build/buoyancy_node/install.log --single-version-externally-managed
+[9.939s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node' for CMake module files
+[9.940s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node' for CMake config files
+[9.940s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node/lib'
+[9.940s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node/bin'
+[9.941s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/pkgconfig/buoyancy_node.pc'
+[9.941s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages'
+[9.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('buoyancy_node', 'pythonpath')
+[9.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/pythonpath.ps1'
+[9.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/pythonpath.dsv'
+[9.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/hook/pythonpath.sh'
+[9.962s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/buoyancy_node/bin'
+[9.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buoyancy_node)
+[9.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/package.ps1'
+[9.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/package.dsv'
+[9.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/package.sh'
+[9.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/package.bash'
+[9.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/buoyancy_node/share/buoyancy_node/package.zsh'
+[9.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/buoyancy_node/share/colcon-core/packages/buoyancy_node)
+[9.986s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/AUV_ROS2/src/task2_drum_detection' with build type 'ament_python'
+[9.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2_drum_detection', 'ament_prefix_path')
+[10.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/ament_prefix_path.ps1'
+[10.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/ament_prefix_path.dsv'
+[10.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/ament_prefix_path.sh'
+[10.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.554s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/facer_input'
+[10.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/master_node_simulation'
+[11.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.608s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/q_gate_detection'
+[11.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/task1_flare_detection'
+[12.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/task1_gate_detection'
+[12.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/task2_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_node/prefix_override:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_node build --build-base /home/orangepi/AUV_ROS2/build/task2_node/build install --record /home/orangepi/AUV_ROS2/build/task2_node/install.log --single-version-externally-managed
+[13.188s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/AUV_ROS2/src/task2_drum_detection'
+[13.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/task2_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_node/prefix_override:/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_node build --build-base /home/orangepi/AUV_ROS2/build/task2_node/build install --record /home/orangepi/AUV_ROS2/build/task2_node/install.log --single-version-externally-managed
+[13.405s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node' for CMake module files
+[13.405s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node' for CMake config files
+[13.406s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node/lib'
+[13.406s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node/bin'
+[13.407s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node/lib/pkgconfig/task2_node.pc'
+[13.407s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node/lib/python3.10/site-packages'
+[13.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2_node', 'pythonpath')
+[13.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/pythonpath.ps1'
+[13.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/pythonpath.dsv'
+[13.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/hook/pythonpath.sh'
+[13.429s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_node/bin'
+[13.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task2_node)
+[13.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/package.ps1'
+[13.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/package.dsv'
+[13.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/package.sh'
+[13.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/package.bash'
+[13.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_node/share/task2_node/package.zsh'
+[13.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/task2_node/share/colcon-core/packages/task2_node)
+[13.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed
+[13.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/task2_drum_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_drum_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_drum_detection build --build-base /home/orangepi/AUV_ROS2/build/task2_drum_detection/build install --record /home/orangepi/AUV_ROS2/build/task2_drum_detection/install.log --single-version-externally-managed
+[14.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/q_gate_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed
+[14.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed
+[14.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/facer_input': PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed
+[14.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/AUV_ROS2/src/master_node_simulation': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed
+[14.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed
+[14.516s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection' for CMake module files
+[14.520s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection' for CMake config files
+[14.523s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib'
+[14.523s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection/bin'
+[14.524s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/pkgconfig/task1_flare_detection.pc'
+[14.525s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages'
+[14.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_flare_detection', 'pythonpath')
+[14.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/pythonpath.ps1'
+[14.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/pythonpath.dsv'
+[14.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/hook/pythonpath.sh'
+[14.643s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_flare_detection/bin'
+[14.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task1_flare_detection)
+[14.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/package.ps1'
+[14.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/package.dsv'
+[14.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/package.sh'
+[14.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/package.bash'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/task1_flare_detection/package.zsh'
+[14.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/task1_flare_detection/share/colcon-core/packages/task1_flare_detection)
+[14.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/task2_drum_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_drum_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_drum_detection build --build-base /home/orangepi/AUV_ROS2/build/task2_drum_detection/build install --record /home/orangepi/AUV_ROS2/build/task2_drum_detection/install.log --single-version-externally-managed
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection' for CMake module files
+[14.813s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection' for CMake config files
+[14.816s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib'
+[14.816s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection/bin'
+[14.817s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/pkgconfig/task2_drum_detection.pc'
+[14.818s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages'
+[14.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('task2_drum_detection', 'pythonpath')
+[14.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/pythonpath.ps1'
+[14.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/pythonpath.dsv'
+[14.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/hook/pythonpath.sh'
+[14.875s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task2_drum_detection/bin'
+[14.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task2_drum_detection)
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/package.ps1'
+[14.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/package.dsv'
+[14.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/package.sh'
+[14.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/package.bash'
+[14.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/task2_drum_detection/package.zsh'
+[14.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/task2_drum_detection/share/colcon-core/packages/task2_drum_detection)
+[14.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed
+[14.931s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection' for CMake module files
+[14.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection' for CMake config files
+[14.936s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib'
+[14.936s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection/bin'
+[14.937s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/pkgconfig/task1_gate_detection.pc'
+[14.937s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages'
+[14.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('task1_gate_detection', 'pythonpath')
+[14.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/pythonpath.ps1'
+[14.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/pythonpath.dsv'
+[14.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/hook/pythonpath.sh'
+[14.964s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/task1_gate_detection/bin'
+[14.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(task1_gate_detection)
+[14.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/package.ps1'
+[14.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/package.dsv'
+[14.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/package.sh'
+[14.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/package.bash'
+[14.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection/package.zsh'
+[14.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/task1_gate_detection/share/colcon-core/packages/task1_gate_detection)
+[14.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/q_gate_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed
+[15.010s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection' for CMake module files
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection' for CMake config files
+[15.011s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection/lib'
+[15.012s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection/bin'
+[15.012s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/pkgconfig/q_gate_detection.pc'
+[15.012s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages'
+[15.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('q_gate_detection', 'pythonpath')
+[15.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/pythonpath.ps1'
+[15.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/pythonpath.dsv'
+[15.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/hook/pythonpath.sh'
+[15.035s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/q_gate_detection/bin'
+[15.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(q_gate_detection)
+[15.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/package.ps1'
+[15.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/package.dsv'
+[15.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/package.sh'
+[15.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/package.bash'
+[15.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection/package.zsh'
+[15.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/q_gate_detection/share/colcon-core/packages/q_gate_detection)
+[15.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/master_node_simulation' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed
+[15.079s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation' for CMake module files
+[15.079s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation' for CMake config files
+[15.080s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation/lib'
+[15.080s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation/bin'
+[15.080s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/pkgconfig/master_node_simulation.pc'
+[15.081s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages'
+[15.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('master_node_simulation', 'pythonpath')
+[15.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/pythonpath.ps1'
+[15.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/pythonpath.dsv'
+[15.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/hook/pythonpath.sh'
+[15.102s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/master_node_simulation/bin'
+[15.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(master_node_simulation)
+[15.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/package.ps1'
+[15.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/package.dsv'
+[15.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/package.sh'
+[15.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/package.bash'
+[15.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation/package.zsh'
+[15.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/master_node_simulation/share/colcon-core/packages/master_node_simulation)
+[15.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/AUV_ROS2/src/facer_input' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed
+[15.146s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input' for CMake module files
+[15.147s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input' for CMake config files
+[15.148s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input/lib'
+[15.148s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input/bin'
+[15.148s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input/lib/pkgconfig/facer_input.pc'
+[15.148s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages'
+[15.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('facer_input', 'pythonpath')
+[15.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/pythonpath.ps1'
+[15.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/pythonpath.dsv'
+[15.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/hook/pythonpath.sh'
+[15.170s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/AUV_ROS2/install/facer_input/bin'
+[15.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(facer_input)
+[15.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/package.ps1'
+[15.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/package.dsv'
+[15.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/package.sh'
+[15.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/package.bash'
+[15.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/AUV_ROS2/install/facer_input/share/facer_input/package.zsh'
+[15.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/AUV_ROS2/install/facer_input/share/colcon-core/packages/facer_input)
+[15.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.193s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.223s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.245s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/AUV_ROS2/install/local_setup.ps1'
+[15.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/AUV_ROS2/install/_local_setup_util_ps1.py'
+[15.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/AUV_ROS2/install/setup.ps1'
+[15.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/AUV_ROS2/install/local_setup.sh'
+[15.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/AUV_ROS2/install/_local_setup_util_sh.py'
+[15.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/AUV_ROS2/install/setup.sh'
+[15.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/AUV_ROS2/install/local_setup.bash'
+[15.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/AUV_ROS2/install/setup.bash'
+[15.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/AUV_ROS2/install/local_setup.zsh'
+[15.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/AUV_ROS2/install/setup.zsh'

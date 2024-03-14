@@ -1,0 +1,42 @@
+[4.067s] Invoking command in '/home/orangepi/AUV_ROS2/src/q_gate_detection': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed
+[4.457s] running egg_info
+[4.457s] creating ../../build/q_gate_detection/q_gate_detection.egg-info
+[4.458s] writing ../../build/q_gate_detection/q_gate_detection.egg-info/PKG-INFO
+[4.459s] writing dependency_links to ../../build/q_gate_detection/q_gate_detection.egg-info/dependency_links.txt
+[4.459s] writing entry points to ../../build/q_gate_detection/q_gate_detection.egg-info/entry_points.txt
+[4.460s] writing requirements to ../../build/q_gate_detection/q_gate_detection.egg-info/requires.txt
+[4.460s] writing top-level names to ../../build/q_gate_detection/q_gate_detection.egg-info/top_level.txt
+[4.460s] writing manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+[4.462s] reading manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+[4.469s] writing manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+[4.470s] running build
+[4.471s] running build_py
+[4.472s] creating /home/orangepi/AUV_ROS2/build/q_gate_detection/build
+[4.472s] creating /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib
+[4.473s] creating /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection
+[4.473s] copying q_gate_detection/q_gate_detect_functions.py -> /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection
+[4.474s] copying q_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection
+[4.474s] copying q_gate_detection/q_gate_detect.py -> /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection
+[4.475s] running install
+[4.475s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.476s]   warnings.warn(
+[4.476s] running install_lib
+[4.479s] creating /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection
+[4.479s] copying /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection/q_gate_detect_functions.py -> /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection
+[4.480s] copying /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection
+[4.480s] copying /home/orangepi/AUV_ROS2/build/q_gate_detection/build/lib/q_gate_detection/q_gate_detect.py -> /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection
+[4.480s] byte-compiling /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection/q_gate_detect_functions.py to q_gate_detect_functions.cpython-310.pyc
+[4.481s] byte-compiling /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection/__init__.py to __init__.cpython-310.pyc
+[4.481s] byte-compiling /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection/q_gate_detect.py to q_gate_detect.cpython-310.pyc
+[4.482s] running install_data
+[4.483s] creating /home/orangepi/AUV_ROS2/install/q_gate_detection/share/ament_index
+[4.487s] creating /home/orangepi/AUV_ROS2/install/q_gate_detection/share/ament_index/resource_index
+[4.488s] creating /home/orangepi/AUV_ROS2/install/q_gate_detection/share/ament_index/resource_index/packages
+[4.489s] copying resource/q_gate_detection -> /home/orangepi/AUV_ROS2/install/q_gate_detection/share/ament_index/resource_index/packages
+[4.489s] copying package.xml -> /home/orangepi/AUV_ROS2/install/q_gate_detection/share/q_gate_detection
+[4.490s] running install_egg_info
+[4.491s] Copying ../../build/q_gate_detection/q_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection-0.0.0-py3.10.egg-info
+[4.492s] running install_scripts
+[4.524s] Installing q_gate_detect script to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/q_gate_detection
+[4.524s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/q_gate_detection/install.log'
+[4.583s] Invoked command in '/home/orangepi/AUV_ROS2/src/q_gate_detection' returned '0': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed

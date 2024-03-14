@@ -13,7 +13,7 @@ class MasterNode(Node):
         super().__init__('master_node')
         self.srv = self.create_service(GetCommand, 'get_command', self.get_command_callback) #Create a Server (service) to listen Control Node's request
         self.current_node_index = 0
-        self.task_nodes = ['task1', 'task2', 'task3', 'task4']  # Add all task nodes topic names in order
+        self.task_nodes = ['task1', 'flare_detect', 'task3', 'task4']  # Add all task nodes topic names in order
         self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
 
         '''
@@ -121,7 +121,7 @@ def main(args=None):
                     master_node.clean_data()
                     time.sleep(0.1)
                     master_node.write_response(response.task_name,response.buoyancy_direction,response.thruster_direction,response.time,response.angle,True)
-
+                del response
             #time.sleep(0.2) #While master node control the frequency of the request flow
 
 

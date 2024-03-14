@@ -287,7 +287,7 @@ def auv_init():
 
 #Thruster case for ROS2
 def thruster_system(parameter, time, angle):
-    print(f"[O] Hardware Control: Thruster; Direction: {parameter},{time},{angle}")
+    print(f"[thruster_system] Hardware Control: Thruster; Direction: {parameter},{time},{angle}")
     #Using time control
     #if angle == 0 and time != 0:
     match parameter:
@@ -297,6 +297,8 @@ def thruster_system(parameter, time, angle):
                 return thruster_move("right", period, 6, time) #Move left with duty cycle 6% and duration time seconds
         case "Right":
             return thruster_move("left", period, 6, time)#Move right with duty cycle 6% and duration time seconds
+        case "None":
+            return True
         #Using angle control
         ###Still building up a angle control function using MPU6050###
         #elif angle != 0 and time == 0:

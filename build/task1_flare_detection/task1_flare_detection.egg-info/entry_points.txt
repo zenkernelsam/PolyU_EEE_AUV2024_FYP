@@ -1,0 +1,3 @@
+[console_scripts]
+flare_detection = task1_flare_detection.flare_detection:main
+

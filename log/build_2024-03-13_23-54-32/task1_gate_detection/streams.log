@@ -1,0 +1,42 @@
+[3.836s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed
+[4.411s] running egg_info
+[4.413s] creating ../../build/task1_gate_detection/task1_gate_detection.egg-info
+[4.414s] writing ../../build/task1_gate_detection/task1_gate_detection.egg-info/PKG-INFO
+[4.415s] writing dependency_links to ../../build/task1_gate_detection/task1_gate_detection.egg-info/dependency_links.txt
+[4.417s] writing entry points to ../../build/task1_gate_detection/task1_gate_detection.egg-info/entry_points.txt
+[4.418s] writing requirements to ../../build/task1_gate_detection/task1_gate_detection.egg-info/requires.txt
+[4.420s] writing top-level names to ../../build/task1_gate_detection/task1_gate_detection.egg-info/top_level.txt
+[4.421s] writing manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+[4.422s] reading manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+[4.423s] writing manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+[4.425s] running build
+[4.426s] running build_py
+[4.426s] creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build
+[4.428s] creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib
+[4.429s] creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+[4.430s] copying task1_gate_detection/gate_detector.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+[4.431s] copying task1_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+[4.432s] copying task1_gate_detection/identify_image.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+[4.433s] running install
+[4.434s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.435s]   warnings.warn(
+[4.436s] running install_lib
+[4.437s] creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+[4.438s] copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/gate_detector.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+[4.438s] copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+[4.439s] copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/identify_image.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+[4.439s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/gate_detector.py to gate_detector.cpython-310.pyc
+[4.440s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/__init__.py to __init__.cpython-310.pyc
+[4.441s] byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/identify_image.py to identify_image.cpython-310.pyc
+[4.441s] running install_data
+[4.442s] creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index
+[4.442s] creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index
+[4.443s] creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index/packages
+[4.443s] copying resource/task1_gate_detection -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index/packages
+[4.443s] copying package.xml -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection
+[4.444s] running install_egg_info
+[4.446s] Copying ../../build/task1_gate_detection/task1_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection-0.0.0-py3.10.egg-info
+[4.448s] running install_scripts
+[4.464s] Installing identify_image script to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/task1_gate_detection
+[4.466s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log'
+[4.697s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection' returned '0': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed

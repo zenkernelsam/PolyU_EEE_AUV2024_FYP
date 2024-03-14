@@ -1,0 +1,6 @@
+{
+  "package_name": "facer_interfaces",
+  "non_idl_tuples": [
+    "/home/orangepi/AUV_ROS2/src/facer_interfaces:srv/DetectionResult.srv"
+  ]
+}

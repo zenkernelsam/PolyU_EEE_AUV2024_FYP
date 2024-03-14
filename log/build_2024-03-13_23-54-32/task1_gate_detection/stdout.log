@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/task1_gate_detection/task1_gate_detection.egg-info
+writing ../../build/task1_gate_detection/task1_gate_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/task1_gate_detection/task1_gate_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/task1_gate_detection/task1_gate_detection.egg-info/entry_points.txt
+writing requirements to ../../build/task1_gate_detection/task1_gate_detection.egg-info/requires.txt
+writing top-level names to ../../build/task1_gate_detection/task1_gate_detection.egg-info/top_level.txt
+writing manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build
+creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib
+creating /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+copying task1_gate_detection/gate_detector.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+copying task1_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+copying task1_gate_detection/identify_image.py -> /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection
+running install
+running install_lib
+creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/gate_detector.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/__init__.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+copying /home/orangepi/AUV_ROS2/build/task1_gate_detection/build/lib/task1_gate_detection/identify_image.py -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection
+byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/gate_detector.py to gate_detector.cpython-310.pyc
+byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection/identify_image.py to identify_image.cpython-310.pyc
+running install_data
+creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index
+creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index
+creating /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index/packages
+copying resource/task1_gate_detection -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/AUV_ROS2/install/task1_gate_detection/share/task1_gate_detection
+running install_egg_info
+Copying ../../build/task1_gate_detection/task1_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing identify_image script to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/task1_gate_detection
+writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log'

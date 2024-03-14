@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from facer_interfaces/srv/DetectionResult.srv
+// generated code does not contain a copyright notice
+
+
+module facer_interfaces {
+  module srv {
+    struct DetectionResult_Request {
+      @verbatim (language="comment", text=
+        "申请结果")
+      boolean apply_result;
+    };
+    struct DetectionResult_Response {
+      @verbatim (language="comment", text=
+        "获取结果")
+      string get_result;
+
+      boolean is_finished;
+
+      string buoyancy_direction;
+
+      string thruster_direction;
+
+      uint8 time;
+
+      uint8 angle;
+    };
+  };
+};

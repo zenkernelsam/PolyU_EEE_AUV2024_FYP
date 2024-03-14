@@ -1,0 +1,39 @@
+[4.566s] Invoking command in '/home/orangepi/AUV_ROS2/src/master_node_simulation': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed
+[5.068s] running egg_info
+[5.068s] creating ../../build/master_node_simulation/master_node_simulation.egg-info
+[5.069s] writing ../../build/master_node_simulation/master_node_simulation.egg-info/PKG-INFO
+[5.070s] writing dependency_links to ../../build/master_node_simulation/master_node_simulation.egg-info/dependency_links.txt
+[5.071s] writing entry points to ../../build/master_node_simulation/master_node_simulation.egg-info/entry_points.txt
+[5.072s] writing requirements to ../../build/master_node_simulation/master_node_simulation.egg-info/requires.txt
+[5.073s] writing top-level names to ../../build/master_node_simulation/master_node_simulation.egg-info/top_level.txt
+[5.073s] writing manifest file '../../build/master_node_simulation/master_node_simulation.egg-info/SOURCES.txt'
+[5.074s] reading manifest file '../../build/master_node_simulation/master_node_simulation.egg-info/SOURCES.txt'
+[5.075s] writing manifest file '../../build/master_node_simulation/master_node_simulation.egg-info/SOURCES.txt'
+[5.076s] running build
+[5.077s] running build_py
+[5.078s] creating /home/orangepi/AUV_ROS2/build/master_node_simulation/build
+[5.080s] creating /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib
+[5.081s] creating /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib/master_node_simulation
+[5.082s] copying master_node_simulation/__init__.py -> /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib/master_node_simulation
+[5.083s] copying master_node_simulation/master_node.py -> /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib/master_node_simulation
+[5.083s] running install
+[5.083s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.083s]   warnings.warn(
+[5.084s] running install_lib
+[5.084s] creating /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation
+[5.084s] copying /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib/master_node_simulation/__init__.py -> /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation
+[5.084s] copying /home/orangepi/AUV_ROS2/build/master_node_simulation/build/lib/master_node_simulation/master_node.py -> /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation
+[5.084s] byte-compiling /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation/__init__.py to __init__.cpython-310.pyc
+[5.084s] byte-compiling /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation/master_node.py to master_node.cpython-310.pyc
+[5.084s] running install_data
+[5.084s] creating /home/orangepi/AUV_ROS2/install/master_node_simulation/share/ament_index
+[5.085s] creating /home/orangepi/AUV_ROS2/install/master_node_simulation/share/ament_index/resource_index
+[5.085s] creating /home/orangepi/AUV_ROS2/install/master_node_simulation/share/ament_index/resource_index/packages
+[5.085s] copying resource/master_node_simulation -> /home/orangepi/AUV_ROS2/install/master_node_simulation/share/ament_index/resource_index/packages
+[5.085s] copying package.xml -> /home/orangepi/AUV_ROS2/install/master_node_simulation/share/master_node_simulation
+[5.086s] running install_egg_info
+[5.086s] Copying ../../build/master_node_simulation/master_node_simulation.egg-info to /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages/master_node_simulation-0.0.0-py3.10.egg-info
+[5.086s] running install_scripts
+[5.086s] Installing master_node script to /home/orangepi/AUV_ROS2/install/master_node_simulation/lib/master_node_simulation
+[5.086s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/master_node_simulation/install.log'
+[5.243s] Invoked command in '/home/orangepi/AUV_ROS2/src/master_node_simulation' returned '0': AMENT_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/AUV_ROS2/install/facer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node_simulation/prefix_override:/home/orangepi/AUV_ROS2/install/master_node_simulation/lib/python3.10/site-packages:/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node_simulation build --build-base /home/orangepi/AUV_ROS2/build/master_node_simulation/build install --record /home/orangepi/AUV_ROS2/build/master_node_simulation/install.log --single-version-externally-managed
