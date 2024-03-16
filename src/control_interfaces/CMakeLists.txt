@@ -18,7 +18,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetCommand.srv"
   "srv/GetTask.srv"
   "srv/BuoyancyControl.srv"
-
+  "msg/AUVBuoyancy.msg"
+  "msg/AUVStatus.msg"
 )
 #Cisco END
 #Template from Internet

@@ -368,6 +368,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/msg" TYPE FILE FILES "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/msg/AUVBuoyancy.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/msg" TYPE FILE FILES "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/msg/AUVStatus.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/srv" TYPE FILE FILES "/home/orangepi/AUV_ROS2/src/control_interfaces/srv/GetCommand.srv")
 endif()
 
@@ -401,6 +409,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/srv" TYPE FILE FILES "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_cmake/srv/BuoyancyControl_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/msg" TYPE FILE FILES "/home/orangepi/AUV_ROS2/src/control_interfaces/msg/AUVBuoyancy.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control_interfaces/msg" TYPE FILE FILES "/home/orangepi/AUV_ROS2/src/control_interfaces/msg/AUVStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

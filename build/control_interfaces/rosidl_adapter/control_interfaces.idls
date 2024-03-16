@@ -1,3 +1,5 @@
 /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/GetCommand.idl
 /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/GetTask.idl
 /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/BuoyancyControl.idl
+/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:msg/AUVBuoyancy.idl
+/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:msg/AUVStatus.idl

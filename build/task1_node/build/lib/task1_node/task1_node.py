@@ -17,7 +17,7 @@ class Task1Node(Node):
         Remember to write your task name below (self.task_name) for better identification
         '''
         self.task_name = "task1" 
-        self.is_finished = None
+        self.is_finished = ""
         self.buoyancy_direction = ""
         self.thruster_direction = ""
         self.time = 0
@@ -29,7 +29,8 @@ class Task1Node(Node):
         #self.get_logger().info(f"Get request.get_command: {request.get_task}") #Debug
         if request.apply_result == True:
             response_from_task.task_name = self.task_name
-            response_from_task.is_finished = self.is_finished == True
+            #response_from_task.is_finished = self.is_finished
+            response_from_task.is_finished  = self.is_finished
             response_from_task.buoyancy_direction = self.buoyancy_direction
             response_from_task.thruster_direction = self.thruster_direction
             response_from_task.time = self.time

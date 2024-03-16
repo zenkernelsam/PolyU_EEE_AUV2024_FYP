@@ -4,6 +4,9 @@ control_interfaces.egg-info/PKG-INFO
 control_interfaces.egg-info/SOURCES.txt
 control_interfaces.egg-info/dependency_links.txt
 control_interfaces.egg-info/top_level.txt
+control_interfaces/msg/__init__.py
+control_interfaces/msg/_auv_buoyancy.py
+control_interfaces/msg/_auv_status.py
 control_interfaces/srv/__init__.py
 control_interfaces/srv/_buoyancy_control.py
 control_interfaces/srv/_get_command.py

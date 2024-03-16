@@ -75,6 +75,8 @@ CMakeFiles/control_interfaces: rosidl_cmake/srv/GetTask_Response.msg
 CMakeFiles/control_interfaces: /home/orangepi/AUV_ROS2/src/control_interfaces/srv/BuoyancyControl.srv
 CMakeFiles/control_interfaces: rosidl_cmake/srv/BuoyancyControl_Request.msg
 CMakeFiles/control_interfaces: rosidl_cmake/srv/BuoyancyControl_Response.msg
+CMakeFiles/control_interfaces: /home/orangepi/AUV_ROS2/src/control_interfaces/msg/AUVBuoyancy.msg
+CMakeFiles/control_interfaces: /home/orangepi/AUV_ROS2/src/control_interfaces/msg/AUVStatus.msg
 
 control_interfaces: CMakeFiles/control_interfaces
 control_interfaces: CMakeFiles/control_interfaces.dir/build.make

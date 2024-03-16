@@ -80,6 +80,8 @@ rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__ro
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/control_interfaces/srv/GetCommand.idl
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/control_interfaces/srv/GetTask.idl
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/control_interfaces/srv/BuoyancyControl.idl
+rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/control_interfaces/msg/AUVBuoyancy.idl
+rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/control_interfaces/msg/AUVStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
@@ -89,6 +91,12 @@ rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_task__rosid
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c
 
@@ -97,6 +105,12 @@ rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_task__type_
 
 rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c
+
+rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c
+
+rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c
 
 CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c.o: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c.o: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c
@@ -140,11 +154,41 @@ CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c -o CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.s
 
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o -MF CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o.d -o CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o -c /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c
+
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c > CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.i
+
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c -o CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.s
+
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o -MF CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o.d -o CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o -c /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c
+
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c > CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.i
+
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c -o CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.s
+
 # Object files for target control_interfaces__rosidl_typesupport_introspection_c
 control_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c.o" \
 "CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_task__type_support.c.o" \
-"CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.o"
+"CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.o" \
+"CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o" \
+"CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o"
 
 # External object files for target control_interfaces__rosidl_typesupport_introspection_c
 control_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
@@ -152,13 +196,15 @@ control_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__type_support.c.o
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_task__type_support.c.o
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c.o
+libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c.o
+libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c.o
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: libcontrol_interfaces__rosidl_generator_c.so
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libcontrol_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libcontrol_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libcontrol_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +215,10 @@ CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/clean
 
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_introspection_c.h
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_buoyancy__type_support.c
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__rosidl_typesupport_introspection_c.h
+CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/msg/detail/auv_status__type_support.c
 CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_c.h
 CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/buoyancy_control__type_support.c
 CMakeFiles/control_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h

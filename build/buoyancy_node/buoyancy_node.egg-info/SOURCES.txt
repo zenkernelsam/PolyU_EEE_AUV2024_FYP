@@ -10,7 +10,9 @@ setup.py
 ../../build/buoyancy_node/buoyancy_node.egg-info/zip-safe
 buoyancy_node/__init__.py
 buoyancy_node/buoyancy_node.py
-buoyancy_node/buoyancy_node_new.py
+buoyancy_node/buoyancy_node_new_OP5P.py
+buoyancy_node/buoyancy_node_test.py
+buoyancy_node/submodules/bar30Pix.py
 buoyancy_node/submodules/buoyancy_function.py
 resource/buoyancy_node
 test/test_copyright.py

@@ -1,5 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/control_interfaces__cpp"
+  "rosidl_generator_cpp/control_interfaces/msg/auv_buoyancy.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/auv_status.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__builder.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__struct.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__traits.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__builder.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__struct.hpp"
+  "rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__traits.hpp"
   "rosidl_generator_cpp/control_interfaces/srv/buoyancy_control.hpp"
   "rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__builder.hpp"
   "rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__struct.hpp"

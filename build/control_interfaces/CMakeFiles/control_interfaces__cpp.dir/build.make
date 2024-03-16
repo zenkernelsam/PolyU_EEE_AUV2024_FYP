@@ -78,6 +78,14 @@ CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/
 CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__builder.hpp
 CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__struct.hpp
 CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__traits.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/auv_buoyancy.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__builder.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__struct.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__traits.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/auv_status.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__builder.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__struct.hpp
+CMakeFiles/control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__traits.hpp
 
 rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -97,6 +105,8 @@ rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: rosidl_adapter/control_interfaces/srv/GetCommand.idl
 rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: rosidl_adapter/control_interfaces/srv/GetTask.idl
 rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: rosidl_adapter/control_interfaces/srv/BuoyancyControl.idl
+rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: rosidl_adapter/control_interfaces/msg/AUVBuoyancy.idl
+rosidl_generator_cpp/control_interfaces/srv/get_command.hpp: rosidl_adapter/control_interfaces/msg/AUVStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orangepi/AUV_ROS2/build/control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -133,7 +143,39 @@ rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__struct.hpp:
 rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__traits.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__traits.hpp
 
+rosidl_generator_cpp/control_interfaces/msg/auv_buoyancy.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/auv_buoyancy.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__builder.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__builder.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__struct.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__struct.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__traits.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__traits.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/auv_status.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/auv_status.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__builder.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__builder.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__struct.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__struct.hpp
+
+rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__traits.hpp: rosidl_generator_cpp/control_interfaces/srv/get_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__traits.hpp
+
 control_interfaces__cpp: CMakeFiles/control_interfaces__cpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/auv_buoyancy.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/auv_status.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__builder.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__struct.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_buoyancy__traits.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__builder.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__struct.hpp
+control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/msg/detail/auv_status__traits.hpp
 control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/buoyancy_control.hpp
 control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__builder.hpp
 control_interfaces__cpp: rosidl_generator_cpp/control_interfaces/srv/detail/buoyancy_control__struct.hpp

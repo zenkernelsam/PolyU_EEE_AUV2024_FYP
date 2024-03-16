@@ -5,20 +5,36 @@ import rclpy
 import time
 from rclpy.node import Node
 from control_interfaces.srv import GetCommand, BuoyancyControl
+from control_interfaces.msg import AUVStatus
 from .submodules.auv_control_function import auv_init, thruster_system
 
 class ControlNode(Node):
     def __init__(self):
         super().__init__('control_node')
         self.client_to_master = self.create_client(GetCommand, 'get_command')
-        self.client_to_buoyancy = self.create_client(BuoyancyControl, 'change_depth')       
-        while not (self.client_to_master.wait_for_service(timeout_sec=1.0) or self.client_to_buoyancy.wait_for_service(timeout_sec=1.0)):
-            self.get_logger().info('[!] Waiting for master Node --> [master_node] and buoyancy node --> [buoyancy_node]...')
-        self.get_logger().info('[O] Found master Node --> [master_node]...')
+        self.client_to_buoyancy = self.create_client(BuoyancyControl, 'change_depth')
+
+        while not (self.client_to_master.wait_for_service(timeout_sec=1.0) and self.client_to_buoyancy.wait_for_service(timeout_sec=1.0)):
+            if self.client_to_master.wait_for_service(timeout_sec=1.0) == False:
+                self.get_logger().info('[!] Waiting for master Node --> [master_node]...')
+            elif self.client_to_buoyancy.wait_for_service(timeout_sec=1.0) == False:
+                self.get_logger().info('[!] Waiting for buoyancy node --> [buoyancy_node]...')
+        
+        self.get_logger().info('[O] Found master Node --> [master_node] and buoyancy node --> [buoyancy_node]...')
         self.req_master = GetCommand.Request()
         self.req_buoyancy = BuoyancyControl.Request()
         #self.timer = self.create_timer(2, self.send_request)  #Let's call it every 0.5 seconds
         self.buoyancy_depth = 0.4 #Default Buoyancy depth is 0.4m
+        self.buoyancy_now_depth = 0
+        self.buoyancy_count = 5 #Timer variable for requesting buoyancy_node in a specific period
+
+        #Create a client to publish the control node's status
+        self.publisher_ = self.create_publisher(AUVStatus, 'AUV_status', 10)
+        self.timer = self.create_timer(1.0, self.timer_callback)  # Timer callback every 1 second
+        self.task_name = ""
+        self.thruster_direction = ""
+        self.buoyancy_direction = ""
+
 
     def send_request(self):
         if self.client_to_master.service_is_ready():
@@ -42,6 +58,16 @@ class ControlNode(Node):
             self.get_logger().warn('[!] Buoyancy Node Service is not ready. Cannot send command.')
             return False        
 
+    def timer_callback(self):
+        #Publish PWM parameters
+        msg = AUVStatus()
+        msg.task_name = self.task_name
+        msg.thruster_direction = self.thruster_direction
+        msg.buoyancy_direction = self.buoyancy_direction
+        msg.buoyancy_setpoint = self.buoyancy_depth
+        msg.buoyancy_now_depth = float(self.buoyancy_now_depth)
+        self.publisher_.publish(msg)
+
 def main(args=None):
     #Initialize thrusters and water pumps' GPIO and PWM pins
     auv_init()
@@ -64,33 +90,51 @@ def main(args=None):
                 # Log the received result
                 #print(f"{response.hardware_name},{response.hardware_parameter},{response.time},{response.angle}")
                 
-                control_node.get_logger().info(f"[O]Control Node receives responses from master node. Task name: {response.task_name}, Buoyancy: {response.buoyancy_direction}, Thrusters: {response.thruster_direction}, Duration (time): {response.time}, Angle: {response.angle}")
-                control_node.get_logger().info(f"Count: {response.count}")
-                thruster_system(response.thruster_direction, response.time, response.angle)
-                #Debug Use:
-                print("Here1, Buoyancy: {}".format(response.buoyancy_direction))
-                if response.buoyancy_direction != "Neutral":
-                    #Debug Use:
-                    print("Here2")
-                    if response.buoyancy_direction == "Up":
-                        control_node.buoyancy_depth += 0.1
-                        print(f"New Depth: {control_node.buoyancy_depth}")
-                    elif response.buoyancy_direction == "Down":
-                        control_node.buoyancy_depth -= 0.1
-                        print(f"New Depth: {control_node.buoyancy_depth}")
-                    print("Here3")
-            #Start requesting the buoyancy node to change depth
-                    while control_node.request_modify_depth() == False:
-                    #If send_request() failed (returning False), the loop will retry after 0.5 seconds
-                    #With this approach, you can activate master node later and the system will not stuck in the
-                    #next command: rclpy.spin_once(control_node), spinning with nothing but waiting for future.done() from master node
-                        time.sleep(0.1)
-                        continue
-                    print("Here4")
-                    if control_node.future_buoyancy.done():
-                        buoyancy_response = control_node.future_buoyancy.result()
-                        control_node.get_logger().info(f"[O]Control Node receives responses from buoyancy node. Status of success: {buoyancy_response.is_succeeded}, Current Depth Set: {round(buoyancy_response.now_depth,2)}")
+                #Write task_name, buoyancy_direction, thruster_direction to Node object
+                control_node.task_name = response.task_name
+                control_node.buoyancy_direction = response.buoyancy_direction
+                control_node.thruster_direction = response.thruster_direction
 
+                #control_node.get_logger().info(f"[O]Control Node receives responses from master node. Task name: {response.task_name}, Buoyancy: {response.buoyancy_direction}, Thrusters: {response.thruster_direction}, Duration (time): {response.time}, Angle: {response.angle}")
+                control_node.get_logger().info(f"[O]Control Node receives responses from master node. Task name: {response.task_name}, Buoyancy: {response.buoyancy_direction}, Thrusters: {response.thruster_direction}")                
+                control_node.get_logger().info(f"Count: {response.count}")
+                #if thruster_system(response.thruster_direction, response.time, response.angle) == True:
+                if thruster_system(response.thruster_direction) == True:
+                    print("thrsuter_system() has been called")
+                else: 
+                    print("[!]Error in thruster_system()")
+                #Debug Use:
+                #print("Here1, Buoyancy: {}".format(response.buoyancy_direction))
+                print(f"[buoyancy_system] Hardware Control: Buoyancy; Direction: {response.buoyancy_direction}")
+                if control_node.buoyancy_count < 5:
+                    print(f"Current buoyancy count: {control_node.buoyancy_count}; Buoyancy Request is Skipped")
+                else:
+                    #Start requesting buoyancy_node
+                    if response.buoyancy_direction != "Neutral":
+                        #Debug Use:
+                        print("Here2*******************")
+                        if response.buoyancy_direction == "Up":
+                            control_node.buoyancy_depth += 0.1
+                            print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
+                        elif response.buoyancy_direction == "Down":
+                            control_node.buoyancy_depth -= 0.1
+                            print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
+                        print("Here3")
+                        #Start requesting the buoyancy node to change depth
+                        while control_node.request_modify_depth() == False:
+                        #If send_request() failed (returning False), the loop will retry after 0.5 seconds
+                        #With this approach, you can activate master node later and the system will not stuck in the
+                        #next command: rclpy.spin_once(control_node), spinning with nothing but waiting for future.done() from master node
+                            time.sleep(0.1)
+                            continue
+                        print("Here4")
+                        if control_node.future_buoyancy.done():
+                            buoyancy_response = control_node.future_buoyancy.result()
+                            control_node.buoyancy_now_depth = round(buoyancy_response.now_depth,2)
+                            control_node.get_logger().info(f"[O]Control Node receives responses from buoyancy node. Status of success: {buoyancy_response.is_succeeded}, Current Depth Read: {round(buoyancy_response.now_depth,2)}")
+                            control_node.get_logger().info(f"[O]Control Node receives responses from buoyancy node. Current Depth Read: {round(buoyancy_response.now_depth,2)}")
+                    control_node.buoyancy_count = 0
+                control_node.buoyancy_count += 1
             time.sleep(0.3) #0.3 seconds per cycle
             del response
 

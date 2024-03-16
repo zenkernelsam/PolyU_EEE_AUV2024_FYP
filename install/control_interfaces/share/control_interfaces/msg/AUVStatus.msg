@@ -1,0 +1,5 @@
+string task_name
+string thruster_direction
+string buoyancy_direction
+float32 buoyancy_setpoint
+float32 buoyancy_now_depth

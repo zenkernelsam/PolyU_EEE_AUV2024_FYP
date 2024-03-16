@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/buoyancy_node/buoyancy_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/buoyancy_node/buoyancy_node.egg-info/dependency_links.txt
+writing entry points to ../../build/buoyancy_node/buoyancy_node.egg-info/entry_points.txt
+writing requirements to ../../build/buoyancy_node/buoyancy_node.egg-info/requires.txt
+writing top-level names to ../../build/buoyancy_node/buoyancy_node.egg-info/top_level.txt
+package init file 'buoyancy_node/submodules/__init__.py' not found (or not a regular file)
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+reading manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/buoyancy_node/buoyancy_node.egg-info to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing buoyancy_node script to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/buoyancy_node
+writing list of installed files to '/home/orangepi/AUV_ROS2/build/buoyancy_node/install.log'

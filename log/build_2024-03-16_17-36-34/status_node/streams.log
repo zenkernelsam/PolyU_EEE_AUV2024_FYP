@@ -1,0 +1,39 @@
+[8.119s] Invoking command in '/home/orangepi/AUV_ROS2/src/status_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/status_node/prefix_override:/home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_node build --build-base /home/orangepi/AUV_ROS2/build/status_node/build install --record /home/orangepi/AUV_ROS2/build/status_node/install.log --single-version-externally-managed
+[9.227s] running egg_info
+[9.228s] creating ../../build/status_node/status_node.egg-info
+[9.229s] writing ../../build/status_node/status_node.egg-info/PKG-INFO
+[9.229s] writing dependency_links to ../../build/status_node/status_node.egg-info/dependency_links.txt
+[9.230s] writing entry points to ../../build/status_node/status_node.egg-info/entry_points.txt
+[9.232s] writing requirements to ../../build/status_node/status_node.egg-info/requires.txt
+[9.234s] writing top-level names to ../../build/status_node/status_node.egg-info/top_level.txt
+[9.241s] writing manifest file '../../build/status_node/status_node.egg-info/SOURCES.txt'
+[9.242s] reading manifest file '../../build/status_node/status_node.egg-info/SOURCES.txt'
+[9.242s] writing manifest file '../../build/status_node/status_node.egg-info/SOURCES.txt'
+[9.243s] running build
+[9.249s] running build_py
+[9.250s] creating /home/orangepi/AUV_ROS2/build/status_node/build
+[9.255s] creating /home/orangepi/AUV_ROS2/build/status_node/build/lib
+[9.256s] creating /home/orangepi/AUV_ROS2/build/status_node/build/lib/status_node
+[9.257s] copying status_node/__init__.py -> /home/orangepi/AUV_ROS2/build/status_node/build/lib/status_node
+[9.257s] copying status_node/status_node.py -> /home/orangepi/AUV_ROS2/build/status_node/build/lib/status_node
+[9.258s] running install
+[9.270s] running install_lib
+[9.271s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.272s]   warnings.warn(
+[9.272s] creating /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node
+[9.273s] copying /home/orangepi/AUV_ROS2/build/status_node/build/lib/status_node/__init__.py -> /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node
+[9.273s] copying /home/orangepi/AUV_ROS2/build/status_node/build/lib/status_node/status_node.py -> /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node
+[9.274s] byte-compiling /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node/__init__.py to __init__.cpython-310.pyc
+[9.274s] byte-compiling /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node/status_node.py to status_node.cpython-310.pyc
+[9.278s] running install_data
+[9.280s] creating /home/orangepi/AUV_ROS2/install/status_node/share/ament_index
+[9.285s] creating /home/orangepi/AUV_ROS2/install/status_node/share/ament_index/resource_index
+[9.300s] creating /home/orangepi/AUV_ROS2/install/status_node/share/ament_index/resource_index/packages
+[9.300s] copying resource/status_node -> /home/orangepi/AUV_ROS2/install/status_node/share/ament_index/resource_index/packages
+[9.301s] copying package.xml -> /home/orangepi/AUV_ROS2/install/status_node/share/status_node
+[9.301s] running install_egg_info
+[9.301s] Copying ../../build/status_node/status_node.egg-info to /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node-0.0.0-py3.10.egg-info
+[9.301s] running install_scripts
+[9.306s] Installing status_node script to /home/orangepi/AUV_ROS2/install/status_node/lib/status_node
+[9.315s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/status_node/install.log'
+[9.860s] Invoked command in '/home/orangepi/AUV_ROS2/src/status_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/status_node/prefix_override:/home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_node build --build-base /home/orangepi/AUV_ROS2/build/status_node/build install --record /home/orangepi/AUV_ROS2/build/status_node/install.log --single-version-externally-managed

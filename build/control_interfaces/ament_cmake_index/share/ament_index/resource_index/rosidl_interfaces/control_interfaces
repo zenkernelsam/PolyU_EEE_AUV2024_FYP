@@ -1,3 +1,7 @@
+msg/AUVBuoyancy.idl
+msg/AUVBuoyancy.msg
+msg/AUVStatus.idl
+msg/AUVStatus.msg
 srv/BuoyancyControl.idl
 srv/BuoyancyControl.srv
 srv/BuoyancyControl_Request.msg

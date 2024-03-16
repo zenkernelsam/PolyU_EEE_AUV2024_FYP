@@ -201,11 +201,17 @@ CMakeFiles/control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_g
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_command__type_support.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_buoyancy__type_support.h \
  /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_command__struct.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_buoyancy__struct.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_buoyancy__functions.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_status__type_support.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_status__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/msg/detail/auv_status__functions.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_command__type_support.h \
+ /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_command__struct.h \
  /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_command__functions.h \
  /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_task__type_support.h \
  /home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_generator_c/control_interfaces/srv/detail/get_task__struct.h \

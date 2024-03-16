@@ -1,0 +1,22 @@
+[5.323s] Invoking command in '/home/orangepi/AUV_ROS2/src/start_auv': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed
+[5.967s] running egg_info
+[5.968s] writing ../../build/start_auv/start_auv.egg-info/PKG-INFO
+[5.969s] writing dependency_links to ../../build/start_auv/start_auv.egg-info/dependency_links.txt
+[5.971s] writing entry points to ../../build/start_auv/start_auv.egg-info/entry_points.txt
+[5.972s] writing requirements to ../../build/start_auv/start_auv.egg-info/requires.txt
+[5.973s] writing top-level names to ../../build/start_auv/start_auv.egg-info/top_level.txt
+[5.974s] reading manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+[5.975s] writing manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+[5.976s] running build
+[5.978s] running build_py
+[5.979s] running install
+[5.980s] running install_lib
+[5.982s] running install_data
+[5.984s] running install_egg_info
+[5.985s] removing '/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv-0.0.0-py3.10.egg-info' (and everything under it)
+[5.987s] Copying ../../build/start_auv/start_auv.egg-info to /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv-0.0.0-py3.10.egg-info
+[5.989s] running install_scripts
+[5.990s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/start_auv/install.log'
+[5.991s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.992s]   warnings.warn(
+[6.341s] Invoked command in '/home/orangepi/AUV_ROS2/src/start_auv' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed

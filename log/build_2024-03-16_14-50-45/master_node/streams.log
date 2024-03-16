@@ -1,0 +1,27 @@
+[4.316s] Invoking command in '/home/orangepi/AUV_ROS2/src/master_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node/prefix_override:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/orangepi/AUV_ROS2/build/master_node/build install --record /home/orangepi/AUV_ROS2/build/master_node/install.log --single-version-externally-managed
+[5.256s] running egg_info
+[5.256s] writing ../../build/master_node/master_node.egg-info/PKG-INFO
+[5.256s] writing dependency_links to ../../build/master_node/master_node.egg-info/dependency_links.txt
+[5.257s] writing entry points to ../../build/master_node/master_node.egg-info/entry_points.txt
+[5.257s] writing requirements to ../../build/master_node/master_node.egg-info/requires.txt
+[5.257s] writing top-level names to ../../build/master_node/master_node.egg-info/top_level.txt
+[5.259s] reading manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[5.260s] adding license file 'LICENSE'
+[5.261s] writing manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[5.262s] running build
+[5.263s] running build_py
+[5.263s] copying master_node/master_node.py -> /home/orangepi/AUV_ROS2/build/master_node/build/lib/master_node
+[5.264s] running install
+[5.265s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.267s]   warnings.warn(
+[5.268s] running install_lib
+[5.270s] copying /home/orangepi/AUV_ROS2/build/master_node/build/lib/master_node/master_node.py -> /home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node
+[5.270s] byte-compiling /home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node/master_node.py to master_node.cpython-310.pyc
+[5.270s] running install_data
+[5.271s] running install_egg_info
+[5.273s] removing '/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node-0.0.0-py3.10.egg-info' (and everything under it)
+[5.274s] Copying ../../build/master_node/master_node.egg-info to /home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node-0.0.0-py3.10.egg-info
+[5.275s] running install_scripts
+[5.320s] Installing master_node script to /home/orangepi/AUV_ROS2/install/master_node/lib/master_node
+[5.322s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/master_node/install.log'
+[6.306s] Invoked command in '/home/orangepi/AUV_ROS2/src/master_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/master_node/prefix_override:/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/orangepi/AUV_ROS2/build/master_node/build install --record /home/orangepi/AUV_ROS2/build/master_node/install.log --single-version-externally-managed

@@ -3,6 +3,8 @@
   "non_idl_tuples": [
     "/home/orangepi/AUV_ROS2/src/control_interfaces:srv/GetCommand.srv",
     "/home/orangepi/AUV_ROS2/src/control_interfaces:srv/GetTask.srv",
-    "/home/orangepi/AUV_ROS2/src/control_interfaces:srv/BuoyancyControl.srv"
+    "/home/orangepi/AUV_ROS2/src/control_interfaces:srv/BuoyancyControl.srv",
+    "/home/orangepi/AUV_ROS2/src/control_interfaces:msg/AUVBuoyancy.msg",
+    "/home/orangepi/AUV_ROS2/src/control_interfaces:msg/AUVStatus.msg"
   ]
 }

@@ -286,17 +286,19 @@ def auv_init():
 
 
 #Thruster case for ROS2
-def thruster_system(parameter, time, angle):
-    print(f"[thruster_system] Hardware Control: Thruster; Direction: {parameter},{time},{angle}")
+#def thruster_system(parameter, time, angle):
+def thruster_system(parameter):
+    #print(f"[thruster_system] Hardware Control: Thruster; Direction: {parameter},{time},{angle}")
+    print(f"[thruster_system] Hardware Control: Thruster; Direction: {parameter}")
     #Using time control
     #if angle == 0 and time != 0:
     match parameter:
         case "Forward":
-            return thruster_move("all", period, 6, time) #Move forward with duty cycle 6% and duration time seconds
+            return thruster_move("all", period, 6, 0) #Move forward with duty cycle 6% and non-stop
         case "Left":
-                return thruster_move("right", period, 6, time) #Move left with duty cycle 6% and duration time seconds
+                return thruster_move("right", period, 6, 0) #Move left with duty cycle 6% and non-stop
         case "Right":
-            return thruster_move("left", period, 6, time)#Move right with duty cycle 6% and duration time seconds
+            return thruster_move("left", period, 6, 0)#Move right with duty cycle 6% and non-stop
         case "None":
             return True
         #Using angle control

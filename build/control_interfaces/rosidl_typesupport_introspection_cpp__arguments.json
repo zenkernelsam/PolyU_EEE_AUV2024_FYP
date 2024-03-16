@@ -5,7 +5,9 @@
   "idl_tuples": [
     "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/GetCommand.idl",
     "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/GetTask.idl",
-    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/BuoyancyControl.idl"
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:srv/BuoyancyControl.idl",
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:msg/AUVBuoyancy.idl",
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces:msg/AUVStatus.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -18,6 +20,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
     "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/srv/GetCommand.idl",
     "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/srv/GetTask.idl",
-    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/srv/BuoyancyControl.idl"
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/srv/BuoyancyControl.idl",
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/msg/AUVBuoyancy.idl",
+    "/home/orangepi/AUV_ROS2/build/control_interfaces/rosidl_adapter/control_interfaces/msg/AUVStatus.idl"
   ]
 }

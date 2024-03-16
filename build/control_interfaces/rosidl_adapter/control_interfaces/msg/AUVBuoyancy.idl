@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_interfaces/msg/AUVBuoyancy.msg
+// generated code does not contain a copyright notice
+
+
+module control_interfaces {
+  module msg {
+    struct AUVBuoyancy {
+      float now_depth;
+    };
+  };
+};

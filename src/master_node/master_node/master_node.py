@@ -15,7 +15,7 @@ class MasterNode(Node):
         self.current_node_index = 0
         self.task_nodes = ['task1', 'flare_detect', 'task3', 'task4']  # Add all task nodes topic names in order
         self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
-
+        print(f"Task Selected: {self.task_nodes[self.current_node_index]}")
         '''
         The client for requesting task_node
         i.e. self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
@@ -55,6 +55,7 @@ class MasterNode(Node):
             return True
         else:
             self.get_logger().warn('[!] Task Node Service is not ready. Cannot send command.')
+            time.sleep(0.5)
             return False
 
     def get_command_callback(self, request, response_from_master):
@@ -106,9 +107,10 @@ def main(args=None):
 
                     master_node.get_logger().info(f"Status: {response.is_finished}, Buoyancy: {response.buoyancy_direction}, Thruster: {response.thruster_direction},{response.time},{response.angle}") # Wait a bit before sending the next request
                     ###POP THE INDEX OUT### (i.e. remove task1_node from self.task_nodes list)
-                    print("The Task is already implemented, the program should now request the next task.")
+                    print("[*] The Task is already implemented, the program should now request the next task.")
+                    #Debug Use:
                     master_node.current_node_index += 1
-                    print("Switch to next Task: {}".format(master_node.task_nodes[master_node.current_node_index]))
+                    print("[*] Switch to next Task: {}".format(master_node.task_nodes[master_node.current_node_index]))
 
                 else:
                     print("The task node is not yet completed.")
@@ -119,10 +121,10 @@ def main(args=None):
                     #Write into node
                     #Clean Data
                     master_node.clean_data()
-                    time.sleep(0.1)
+                    time.sleep(0.2)
                     master_node.write_response(response.task_name,response.buoyancy_direction,response.thruster_direction,response.time,response.angle,True)
                 del response
-            #time.sleep(0.2) #While master node control the frequency of the request flow
+            time.sleep(0.3) #While master node control the frequency of the request flow
 
 
         #Exit criteria
