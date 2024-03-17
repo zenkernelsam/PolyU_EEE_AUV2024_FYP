@@ -12,7 +12,8 @@ class MasterNode(Node):
     def __init__(self):
         super().__init__('master_node')
         self.srv = self.create_service(GetCommand, 'get_command', self.get_command_callback) #Create a Server (service) to listen Control Node's request
-        self.current_node_index = 0
+        self.current_node_index = self.declare_parameter('task_index', 0).value
+        #self.current_node_index = 0
         self.task_nodes = ['task1', 'flare_detect', 'task3', 'task4']  # Add all task nodes topic names in order
         self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
         print(f"Task Selected: {self.task_nodes[self.current_node_index]}")

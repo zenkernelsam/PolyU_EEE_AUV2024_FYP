@@ -1,8 +1,10 @@
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/control_node.py
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/__init__.py
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/control_node_test_only.py
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/submodules/auv_control_function.py
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/__pycache__/control_node.cpython-310.pyc
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/__pycache__/__init__.cpython-310.pyc
+/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/__pycache__/control_node_test_only.cpython-310.pyc
 /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node/submodules/__pycache__/auv_control_function.cpython-310.pyc
 /home/orangepi/AUV_ROS2/install/control_node/share/ament_index/resource_index/packages/control_node
 /home/orangepi/AUV_ROS2/install/control_node/share/control_node/package.xml

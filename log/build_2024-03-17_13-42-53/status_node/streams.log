@@ -1,0 +1,23 @@
+[5.883s] Invoking command in '/home/orangepi/AUV_ROS2/src/status_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/status_node/prefix_override:/home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_node build --build-base /home/orangepi/AUV_ROS2/build/status_node/build install --record /home/orangepi/AUV_ROS2/build/status_node/install.log --single-version-externally-managed
+[6.258s] running egg_info
+[6.259s] writing ../../build/status_node/status_node.egg-info/PKG-INFO
+[6.260s] writing dependency_links to ../../build/status_node/status_node.egg-info/dependency_links.txt
+[6.261s] writing entry points to ../../build/status_node/status_node.egg-info/entry_points.txt
+[6.262s] writing requirements to ../../build/status_node/status_node.egg-info/requires.txt
+[6.269s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.273s]   warnings.warn(
+[6.273s] writing top-level names to ../../build/status_node/status_node.egg-info/top_level.txt
+[6.274s] reading manifest file '../../build/status_node/status_node.egg-info/SOURCES.txt'
+[6.275s] writing manifest file '../../build/status_node/status_node.egg-info/SOURCES.txt'
+[6.275s] running build
+[6.276s] running build_py
+[6.281s] running install
+[6.281s] running install_lib
+[6.282s] running install_data
+[6.282s] running install_egg_info
+[6.283s] removing '/home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node-0.0.0-py3.10.egg-info' (and everything under it)
+[6.303s] Copying ../../build/status_node/status_node.egg-info to /home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages/status_node-0.0.0-py3.10.egg-info
+[6.304s] running install_scripts
+[6.339s] Installing status_node script to /home/orangepi/AUV_ROS2/install/status_node/lib/status_node
+[6.341s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/status_node/install.log'
+[8.138s] Invoked command in '/home/orangepi/AUV_ROS2/src/status_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/status_node/prefix_override:/home/orangepi/AUV_ROS2/install/status_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_node build --build-base /home/orangepi/AUV_ROS2/build/status_node/build install --record /home/orangepi/AUV_ROS2/build/status_node/install.log --single-version-externally-managed

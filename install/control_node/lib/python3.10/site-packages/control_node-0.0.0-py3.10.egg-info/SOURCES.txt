@@ -11,6 +11,7 @@ setup.py
 ../../build/control_node/control_node.egg-info/zip-safe
 control_node/__init__.py
 control_node/control_node.py
+control_node/control_node_test_only.py
 control_node/submodules/auv_control_function.py
 resource/control_node
 test/test_copyright.py

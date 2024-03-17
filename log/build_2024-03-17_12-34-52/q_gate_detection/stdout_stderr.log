@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/q_gate_detection/q_gate_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/q_gate_detection/q_gate_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/q_gate_detection/q_gate_detection.egg-info/entry_points.txt
+writing requirements to ../../build/q_gate_detection/q_gate_detection.egg-info/requires.txt
+writing top-level names to ../../build/q_gate_detection/q_gate_detection.egg-info/top_level.txt
+reading manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+removing '/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/q_gate_detection/q_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing q_gate_detect script to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/q_gate_detection
+writing list of installed files to '/home/orangepi/AUV_ROS2/build/q_gate_detection/install.log'

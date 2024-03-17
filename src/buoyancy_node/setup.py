@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'buoyancy_node = buoyancy_node.buoyancy_node:main',
+            'buoyancy_node_test = buoyancy_node.buoyancy_node_test:main',
         ],
     },
 )

@@ -1,0 +1,23 @@
+[2.336s] Invoking command in '/home/orangepi/AUV_ROS2/src/task2_drum_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_drum_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_drum_detection build --build-base /home/orangepi/AUV_ROS2/build/task2_drum_detection/build install --record /home/orangepi/AUV_ROS2/build/task2_drum_detection/install.log --single-version-externally-managed
+[2.689s] running egg_info
+[2.691s] writing ../../build/task2_drum_detection/task2_drum_detection.egg-info/PKG-INFO
+[2.691s] writing dependency_links to ../../build/task2_drum_detection/task2_drum_detection.egg-info/dependency_links.txt
+[2.691s] writing entry points to ../../build/task2_drum_detection/task2_drum_detection.egg-info/entry_points.txt
+[2.691s] writing requirements to ../../build/task2_drum_detection/task2_drum_detection.egg-info/requires.txt
+[2.692s] writing top-level names to ../../build/task2_drum_detection/task2_drum_detection.egg-info/top_level.txt
+[2.694s] reading manifest file '../../build/task2_drum_detection/task2_drum_detection.egg-info/SOURCES.txt'
+[2.697s] writing manifest file '../../build/task2_drum_detection/task2_drum_detection.egg-info/SOURCES.txt'
+[2.699s] running build
+[2.700s] running build_py
+[2.701s] running install
+[2.702s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.704s]   warnings.warn(
+[2.705s] running install_lib
+[2.706s] running install_data
+[2.707s] running install_egg_info
+[2.708s] removing '/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages/task2_drum_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.710s] Copying ../../build/task2_drum_detection/task2_drum_detection.egg-info to /home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages/task2_drum_detection-0.0.0-py3.10.egg-info
+[2.711s] running install_scripts
+[2.736s] Installing drum_detection script to /home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/task2_drum_detection
+[2.737s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task2_drum_detection/install.log'
+[2.793s] Invoked command in '/home/orangepi/AUV_ROS2/src/task2_drum_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task2_drum_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task2_drum_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task2_drum_detection build --build-base /home/orangepi/AUV_ROS2/build/task2_drum_detection/build install --record /home/orangepi/AUV_ROS2/build/task2_drum_detection/install.log --single-version-externally-managed

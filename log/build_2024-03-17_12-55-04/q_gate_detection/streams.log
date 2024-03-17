@@ -1,0 +1,23 @@
+[5.267s] Invoking command in '/home/orangepi/AUV_ROS2/src/q_gate_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed
+[5.943s] running egg_info
+[5.945s] writing ../../build/q_gate_detection/q_gate_detection.egg-info/PKG-INFO
+[5.946s] writing dependency_links to ../../build/q_gate_detection/q_gate_detection.egg-info/dependency_links.txt
+[5.948s] writing entry points to ../../build/q_gate_detection/q_gate_detection.egg-info/entry_points.txt
+[5.949s] writing requirements to ../../build/q_gate_detection/q_gate_detection.egg-info/requires.txt
+[5.950s] writing top-level names to ../../build/q_gate_detection/q_gate_detection.egg-info/top_level.txt
+[5.952s] reading manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+[5.952s] writing manifest file '../../build/q_gate_detection/q_gate_detection.egg-info/SOURCES.txt'
+[5.953s] running build
+[5.953s] running build_py
+[5.953s] running install
+[5.954s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.955s]   warnings.warn(
+[5.957s] running install_lib
+[5.958s] running install_data
+[5.959s] running install_egg_info
+[5.960s] removing '/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[5.961s] Copying ../../build/q_gate_detection/q_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages/q_gate_detection-0.0.0-py3.10.egg-info
+[5.962s] running install_scripts
+[5.999s] Installing q_gate_detect script to /home/orangepi/AUV_ROS2/install/q_gate_detection/lib/q_gate_detection
+[6.000s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/q_gate_detection/install.log'
+[6.103s] Invoked command in '/home/orangepi/AUV_ROS2/src/q_gate_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/q_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/q_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/q_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/q_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/q_gate_detection/install.log --single-version-externally-managed

@@ -35,6 +35,12 @@ class ControlNode(Node):
         self.thruster_direction = ""
         self.buoyancy_direction = ""
 
+        #Create some variables to clean pending requests
+        self.future_master_count = 0
+        self.future_master_status = True
+
+        #Debug
+        #print("Here0")
 
     def send_request(self):
         if self.client_to_master.service_is_ready():
@@ -49,7 +55,7 @@ class ControlNode(Node):
     def request_modify_depth(self):
         if self.client_to_buoyancy.service_is_ready():
             self.req_buoyancy.modify_depth = True #Let Mater Node know we are gonna request a control command
-            self.req_buoyancy.new_depth = float(self.buoyancy_depth)
+            self.req_buoyancy.new_depth = round(float(self.buoyancy_depth),2)
             self.get_logger().info("[O] Requesting Buoyancy Node to set new depth of: {}".format(self.buoyancy_depth))
             self.future_buoyancy = self.client_to_buoyancy.call_async(self.req_buoyancy) #Asynchronous request
             rclpy.spin_until_future_complete(self, self.future_buoyancy) #Wait until reponse is available
@@ -84,6 +90,21 @@ def main(args=None):
                 #time.sleep(0.05)
                 continue
             #rclpy.spin_once(control_node)  #USELESS?
+            print("Here1")
+            #Remove pending request if necessary
+            while control_node.future_master.done() == False:
+                control_node.future_buoyancy_count += 1
+                if control_node.future_buoyancy_count > 20:
+                    control_node.get_logger().warn('[!] Requesting to Master Node --> [master_node] is timed out. The pending request is removed.')
+                    control_node.client_to_master.remove_pending_request(control_node.future_master) #Find how to remove pending request in ROS2 rclpy API documentation.
+                    control_node.future_buoyancy_count = 0
+                    control_node.future_master_status = False
+                    break
+                time.sleep(0.2)
+
+            if control_node.future_master_status == False:
+                continue #Restart
+
             if control_node.future_master.done():
                 # Get the service response
                 response = control_node.future_master.result()
@@ -112,28 +133,28 @@ def main(args=None):
                     #Start requesting buoyancy_node
                     if response.buoyancy_direction != "Neutral":
                         #Debug Use:
-                        print("Here2*******************")
+                        print("*******************")
                         if response.buoyancy_direction == "Up":
                             control_node.buoyancy_depth += 0.1
                             print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
                         elif response.buoyancy_direction == "Down":
                             control_node.buoyancy_depth -= 0.1
                             print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
-                        print("Here3")
-                        #Start requesting the buoyancy node to change depth
+                        print("*******************")
+                        #print("Here3")
+
+                        ###Start requesting the buoyancy node to change depth
                         while control_node.request_modify_depth() == False:
-                        #If send_request() failed (returning False), the loop will retry after 0.5 seconds
-                        #With this approach, you can activate master node later and the system will not stuck in the
-                        #next command: rclpy.spin_once(control_node), spinning with nothing but waiting for future.done() from master node
                             time.sleep(0.1)
                             continue
                         print("Here4")
+                        
                         if control_node.future_buoyancy.done():
                             buoyancy_response = control_node.future_buoyancy.result()
                             control_node.buoyancy_now_depth = round(buoyancy_response.now_depth,2)
                             control_node.get_logger().info(f"[O]Control Node receives responses from buoyancy node. Status of success: {buoyancy_response.is_succeeded}, Current Depth Read: {round(buoyancy_response.now_depth,2)}")
                             control_node.get_logger().info(f"[O]Control Node receives responses from buoyancy node. Current Depth Read: {round(buoyancy_response.now_depth,2)}")
-                    control_node.buoyancy_count = 0
+                    control_node.buoyancy_count = -1 #As -1+1=0
                 control_node.buoyancy_count += 1
             time.sleep(0.3) #0.3 seconds per cycle
             del response

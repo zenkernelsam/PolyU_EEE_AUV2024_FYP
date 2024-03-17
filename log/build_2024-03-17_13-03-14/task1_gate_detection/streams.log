@@ -1,0 +1,23 @@
+[2.278s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed
+[2.652s] running egg_info
+[2.653s] writing ../../build/task1_gate_detection/task1_gate_detection.egg-info/PKG-INFO
+[2.653s] writing dependency_links to ../../build/task1_gate_detection/task1_gate_detection.egg-info/dependency_links.txt
+[2.654s] writing entry points to ../../build/task1_gate_detection/task1_gate_detection.egg-info/entry_points.txt
+[2.654s] writing requirements to ../../build/task1_gate_detection/task1_gate_detection.egg-info/requires.txt
+[2.654s] writing top-level names to ../../build/task1_gate_detection/task1_gate_detection.egg-info/top_level.txt
+[2.657s] reading manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+[2.658s] writing manifest file '../../build/task1_gate_detection/task1_gate_detection.egg-info/SOURCES.txt'
+[2.658s] running build
+[2.658s] running build_py
+[2.659s] running install
+[2.659s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.659s]   warnings.warn(
+[2.659s] running install_lib
+[2.661s] running install_data
+[2.662s] running install_egg_info
+[2.664s] removing '/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.665s] Copying ../../build/task1_gate_detection/task1_gate_detection.egg-info to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages/task1_gate_detection-0.0.0-py3.10.egg-info
+[2.666s] running install_scripts
+[2.698s] Installing identify_image script to /home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/task1_gate_detection
+[2.699s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log'
+[2.756s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_gate_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_gate_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_gate_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_gate_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_gate_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_gate_detection/install.log --single-version-externally-managed
