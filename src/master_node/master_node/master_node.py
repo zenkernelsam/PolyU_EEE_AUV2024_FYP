@@ -103,18 +103,18 @@ def main(args=None):
             if master_node.future.done():
                 # Get the service response
                 response = master_node.future.result()
-                print("Current responding task node name: {}".format(response.task_name))
+                master_node.get_logger().info("Current responding task node name: {}".format(response.task_name))
                 if response.is_finished is True:
 
                     master_node.get_logger().info(f"Status: {response.is_finished}, Buoyancy: {response.buoyancy_direction}, Thruster: {response.thruster_direction},{response.time},{response.angle}") # Wait a bit before sending the next request
                     ###POP THE INDEX OUT### (i.e. remove task1_node from self.task_nodes list)
-                    print("[*] The Task is already implemented, the program should now request the next task.")
+                    master_node.get_logger().info("[*] The Task is already implemented, the program should now request the next task.")
                     #Debug Use:
                     master_node.current_node_index += 1
-                    print("[*] Switch to next Task: {}".format(master_node.task_nodes[master_node.current_node_index]))
+                    master_node.get_logger().info("[*] Switch to next Task: {}".format(master_node.task_nodes[master_node.current_node_index]))
 
                 else:
-                    print("The task node is not yet completed.")
+                    master_node.get_logger().info("[*] The task node is not yet completed.")
                     master_node.count += 1
                     master_node.get_logger().info(f"{response.is_finished}, Buoyancy: {response.buoyancy_direction}, Thruster: {response.thruster_direction},Duration (Time): {response.time}, Angle: {response.angle}") # Wait a bit before sending the next request
                     master_node.get_logger().info(f"Counting: {master_node.count}")

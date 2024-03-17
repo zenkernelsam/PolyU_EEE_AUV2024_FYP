@@ -126,21 +126,21 @@ def main(args=None):
                     print("[!]Error in thruster_system()")
                 #Debug Use:
                 #print("Here1, Buoyancy: {}".format(response.buoyancy_direction))
-                print(f"[buoyancy_system] Hardware Control: Buoyancy; Direction: {response.buoyancy_direction}")
+                control_node.get_logger().info(f"[buoyancy_system] Hardware Control: Buoyancy; Direction: {response.buoyancy_direction}")
                 if control_node.buoyancy_count < 5:
-                    print(f"Current buoyancy count: {control_node.buoyancy_count}; Buoyancy Request is Skipped")
+                    control_node.get_logger().info(f"Current buoyancy count: {control_node.buoyancy_count}; Buoyancy Request is Skipped")
                 else:
                     #Start requesting buoyancy_node
                     if response.buoyancy_direction != "Neutral":
                         #Debug Use:
-                        print("*******************")
+                        control_node.get_logger().info("*******************")
                         if response.buoyancy_direction == "Up":
                             control_node.buoyancy_depth += 0.1
-                            print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
+                            control_node.get_logger().info(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
                         elif response.buoyancy_direction == "Down":
                             control_node.buoyancy_depth -= 0.1
-                            print(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
-                        print("*******************")
+                            control_node.get_logger().info(f"[O] New Depth: {round(control_node.buoyancy_depth,3)}")
+                        control_node.get_logger().info("*******************")
                         #print("Here3")
 
                         ###Start requesting the buoyancy node to change depth

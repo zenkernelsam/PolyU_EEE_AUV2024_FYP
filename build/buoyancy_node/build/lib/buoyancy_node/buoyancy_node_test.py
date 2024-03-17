@@ -36,7 +36,7 @@ class BuoyancyNode(Node):
         return response_from_buoyancy
     
     def write_response(self, is_succeeded, now_depth):
-        print(f"write_reponse() started")
+        self.get_logger().info(f"write_reponse() started")
         self.is_succeeded = is_succeeded == "True"
         self.buoyancy_depth = float(now_depth)
 

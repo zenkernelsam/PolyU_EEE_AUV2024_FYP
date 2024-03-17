@@ -14,12 +14,12 @@ def generate_launch_description():             # 自动生成launch文件的函�
         Node(
             package='buoyancy_node',
             executable='buoyancy_node_test',      
-            arguments=['True 3'],
+            arguments=['True','3'],
         ),
         Node(
             package='task1_node',
             executable='task1_node', 
-            arguments=['False Up Forward'],   
+            arguments=['False', 'Up','Forward'],   
         ),
         Node(
             package='master_node',
