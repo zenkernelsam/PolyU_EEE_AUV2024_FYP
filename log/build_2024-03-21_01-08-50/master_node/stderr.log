@@ -1,0 +1,2 @@
+/home/orangepi/AUV_ROS2/install/master_node/lib/python3.10/site-packages/master_node/master_node.py:49: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if start is not 0:

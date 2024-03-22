@@ -1,0 +1,23 @@
+[3.701s] Invoking command in '/home/orangepi/AUV_ROS2/src/buoyancy_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/buoyancy_node/prefix_override:/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/buoyancy_node build --build-base /home/orangepi/AUV_ROS2/build/buoyancy_node/build install --record /home/orangepi/AUV_ROS2/build/buoyancy_node/install.log --single-version-externally-managed install_data
+[4.186s] running egg_info
+[4.189s] writing ../../build/buoyancy_node/buoyancy_node.egg-info/PKG-INFO
+[4.189s] writing dependency_links to ../../build/buoyancy_node/buoyancy_node.egg-info/dependency_links.txt
+[4.190s] writing entry points to ../../build/buoyancy_node/buoyancy_node.egg-info/entry_points.txt
+[4.190s] writing requirements to ../../build/buoyancy_node/buoyancy_node.egg-info/requires.txt
+[4.190s] writing top-level names to ../../build/buoyancy_node/buoyancy_node.egg-info/top_level.txt
+[4.191s] package init file 'buoyancy_node/submodules/__init__.py' not found (or not a regular file)
+[4.192s] reading manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'
+[4.194s] writing manifest file '../../build/buoyancy_node/buoyancy_node.egg-info/SOURCES.txt'
+[4.194s] running build
+[4.194s] running build_py
+[4.195s] running install
+[4.196s] running install_lib
+[4.199s] running install_data
+[4.199s] running install_egg_info
+[4.206s] removing '/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node-0.0.0-py3.10.egg-info' (and everything under it)
+[4.220s] Copying ../../build/buoyancy_node/buoyancy_node.egg-info to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages/buoyancy_node-0.0.0-py3.10.egg-info
+[4.239s] running install_scripts
+[4.371s] Installing buoyancy_node script to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/buoyancy_node
+[4.374s] Installing buoyancy_node_test script to /home/orangepi/AUV_ROS2/install/buoyancy_node/lib/buoyancy_node
+[4.375s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/buoyancy_node/install.log'
+[4.786s] Invoked command in '/home/orangepi/AUV_ROS2/src/buoyancy_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/buoyancy_node/prefix_override:/home/orangepi/AUV_ROS2/install/buoyancy_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/buoyancy_node build --build-base /home/orangepi/AUV_ROS2/build/buoyancy_node/build install --record /home/orangepi/AUV_ROS2/build/buoyancy_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+[3.373s] Invoking command in '/home/orangepi/AUV_ROS2/src/control_node': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed install_data
+[3.790s] running egg_info
+[3.790s] writing ../../build/control_node/control_node.egg-info/PKG-INFO
+[3.790s] writing dependency_links to ../../build/control_node/control_node.egg-info/dependency_links.txt
+[3.790s] writing entry points to ../../build/control_node/control_node.egg-info/entry_points.txt
+[3.790s] writing requirements to ../../build/control_node/control_node.egg-info/requires.txt
+[3.790s] writing top-level names to ../../build/control_node/control_node.egg-info/top_level.txt
+[3.790s] package init file 'control_node/submodules/__init__.py' not found (or not a regular file)
+[3.790s] reading manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[3.791s] adding license file 'LICENSE'
+[3.791s] writing manifest file '../../build/control_node/control_node.egg-info/SOURCES.txt'
+[3.792s] running build
+[3.792s] running build_py
+[3.793s] running install
+[3.794s] running install_lib
+[3.797s] running install_data
+[3.797s] running install_egg_info
+[3.801s] removing '/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info' (and everything under it)
+[3.806s] Copying ../../build/control_node/control_node.egg-info to /home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info
+[3.832s] running install_scripts
+[3.861s] Installing control_node script to /home/orangepi/AUV_ROS2/install/control_node/lib/control_node
+[3.862s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/control_node/install.log'
+[3.944s] Invoked command in '/home/orangepi/AUV_ROS2/src/control_node' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/control_node/prefix_override:/home/orangepi/AUV_ROS2/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control_node build --build-base /home/orangepi/AUV_ROS2/build/control_node/build install --record /home/orangepi/AUV_ROS2/build/control_node/install.log --single-version-externally-managed install_data

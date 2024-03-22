@@ -1,0 +1,21 @@
+[2.362s] Invoking command in '/home/orangepi/AUV_ROS2/src/facer_input': PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed install_data
+[3.450s] running egg_info
+[3.451s] writing ../../build/facer_input/facer_input.egg-info/PKG-INFO
+[3.452s] writing dependency_links to ../../build/facer_input/facer_input.egg-info/dependency_links.txt
+[3.454s] writing entry points to ../../build/facer_input/facer_input.egg-info/entry_points.txt
+[3.455s] writing requirements to ../../build/facer_input/facer_input.egg-info/requires.txt
+[3.457s] writing top-level names to ../../build/facer_input/facer_input.egg-info/top_level.txt
+[3.458s] reading manifest file '../../build/facer_input/facer_input.egg-info/SOURCES.txt'
+[3.460s] writing manifest file '../../build/facer_input/facer_input.egg-info/SOURCES.txt'
+[3.462s] running build
+[3.462s] running build_py
+[3.464s] running install
+[3.465s] running install_lib
+[3.465s] running install_data
+[3.467s] running install_egg_info
+[3.468s] removing '/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input-0.0.0-py3.10.egg-info' (and everything under it)
+[3.469s] Copying ../../build/facer_input/facer_input.egg-info to /home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages/facer_input-0.0.0-py3.10.egg-info
+[3.471s] running install_scripts
+[3.472s] Installing capture_image script to /home/orangepi/AUV_ROS2/install/facer_input/lib/facer_input
+[3.473s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/facer_input/install.log'
+[3.544s] Invoked command in '/home/orangepi/AUV_ROS2/src/facer_input' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/facer_input/prefix_override:/home/orangepi/AUV_ROS2/install/facer_input/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/facer_input build --build-base /home/orangepi/AUV_ROS2/build/facer_input/build install --record /home/orangepi/AUV_ROS2/build/facer_input/install.log --single-version-externally-managed install_data

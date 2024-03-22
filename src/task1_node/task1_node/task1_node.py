@@ -35,11 +35,11 @@ class Task1Node(Node):
             response_from_task.thruster_direction = self.thruster_direction
             response_from_task.time = self.time
             response_from_task.angle = self.angle
-            #self.get_logger().info(f"Response should be finished..")
+            self.get_logger().info(f"Responsing to Master Node..")
         return response_from_task
     
     def write_response(self, is_finished, buoyancy_direction, thruster_direction):
-        print(f"write_response() started: {is_finished}, {buoyancy_direction}, {thruster_direction}")
+        self.get_logger().info(f"write_response() started: {is_finished}, {buoyancy_direction}, {thruster_direction}")
         self.is_finished = is_finished == "True"
         self.buoyancy_direction = buoyancy_direction
         self.thruster_direction = thruster_direction

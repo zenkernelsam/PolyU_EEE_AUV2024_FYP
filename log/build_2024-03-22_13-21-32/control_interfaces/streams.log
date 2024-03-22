@@ -1,0 +1,240 @@
+[0.507s] Invoking command in '/home/orangepi/AUV_ROS2/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/control_interfaces -- -j8 -l8
+[2.337s] [  1%] Built target control_interfaces__cpp
+[2.337s] [ 12%] Built target control_interfaces__rosidl_generator_c
+[2.337s] [ 12%] Built target ament_cmake_python_copy_control_interfaces
+[2.337s] [ 23%] Built target control_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.337s] [ 57%] Built target control_interfaces__rosidl_typesupport_fastrtps_c
+[2.337s] [ 57%] Built target control_interfaces__rosidl_typesupport_introspection_c
+[2.337s] [ 57%] Built target control_interfaces__rosidl_typesupport_introspection_cpp
+[2.337s] [ 68%] Built target control_interfaces__rosidl_typesupport_cpp
+[2.338s] [ 79%] Built target control_interfaces__rosidl_typesupport_c
+[2.338s] [ 79%] Built target control_interfaces
+[2.338s] [ 80%] Built target control_interfaces__py
+[2.338s] [ 90%] Built target control_interfaces__rosidl_generator_py
+[2.338s] [100%] Built target control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.338s] [100%] Built target control_interfaces__rosidl_typesupport_c__pyext
+[2.338s] [100%] Built target control_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.338s] running egg_info
+[2.338s] writing control_interfaces.egg-info/PKG-INFO
+[2.338s] writing dependency_links to control_interfaces.egg-info/dependency_links.txt
+[2.339s] writing top-level names to control_interfaces.egg-info/top_level.txt
+[2.339s] reading manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[2.339s] writing manifest file 'control_interfaces.egg-info/SOURCES.txt'
+[2.339s] [100%] Built target ament_cmake_python_build_control_interfaces_egg
+[2.339s] Invoked command in '/home/orangepi/AUV_ROS2/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/control_interfaces -- -j8 -l8
+[2.872s] Invoking command in '/home/orangepi/AUV_ROS2/build/control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/control_interfaces
+[2.908s] -- Install configuration: ""
+[2.909s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/rosidl_interfaces/control_interfaces
+[2.910s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.911s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.912s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/buoyancy_control.h
+[2.912s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.913s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__functions.c
+[2.913s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__struct.h
+[2.915s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__struct.h
+[2.915s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__struct.h
+[2.916s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.h
+[2.917s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__functions.c
+[2.918s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__functions.h
+[2.919s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__functions.c
+[2.919s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.h
+[2.919s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__functions.h
+[2.920s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__functions.h
+[2.921s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.h
+[2.923s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_task.h
+[2.924s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_command.h
+[2.925s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.926s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/auv_status.h
+[2.929s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.936s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__functions.h
+[2.937s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__functions.h
+[2.938s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__type_support.h
+[2.938s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__functions.c
+[2.938s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__type_support.h
+[2.939s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__functions.c
+[2.939s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__struct.h
+[2.940s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__struct.h
+[2.940s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/auv_buoyancy.h
+[2.940s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.941s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/library_path.sh
+[2.941s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/library_path.dsv
+[2.942s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_c.so
+[2.942s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.942s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.943s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.943s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_fastrtps_c.h
+[2.944s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_fastrtps_c.h
+[2.944s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_fastrtps_c.h
+[2.944s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.945s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.945s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.946s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_fastrtps_c.h
+[2.946s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__rosidl_typesupport_fastrtps_c.h
+[2.946s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.947s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.947s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.948s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.948s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_c.h
+[2.949s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_c.h
+[2.949s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.c
+[2.949s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.c
+[2.950s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.c
+[2.952s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_introspection_c.h
+[2.953s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.953s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.954s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.954s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__rosidl_typesupport_introspection_c.h
+[2.955s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__type_support.c
+[2.956s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__type_support.c
+[2.956s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_c.so
+[2.956s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_c.so
+[2.957s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.957s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.958s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_task.hpp
+[2.958s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/buoyancy_control.hpp
+[2.958s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.959s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__struct.hpp
+[2.959s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__builder.hpp
+[2.959s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__builder.hpp
+[2.960s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__struct.hpp
+[2.960s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__traits.hpp
+[2.961s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__builder.hpp
+[2.961s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__struct.hpp
+[2.962s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__traits.hpp
+[2.962s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__traits.hpp
+[2.962s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/get_command.hpp
+[2.963s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.963s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/auv_buoyancy.hpp
+[2.964s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/auv_status.hpp
+[2.964s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.965s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__struct.hpp
+[2.965s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__builder.hpp
+[2.966s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__traits.hpp
+[2.966s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__traits.hpp
+[2.966s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__builder.hpp
+[2.967s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__struct.hpp
+[2.967s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.968s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.968s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.968s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/dds_fastrtps
+[2.969s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.970s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.971s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.971s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.972s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/dds_fastrtps
+[2.972s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_fastrtps_cpp.hpp
+[2.973s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.973s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces
+[2.973s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv
+[2.974s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail
+[2.974s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__rosidl_typesupport_introspection_cpp.hpp
+[2.975s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/buoyancy_control__type_support.cpp
+[2.976s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__type_support.cpp
+[2.976s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_task__rosidl_typesupport_introspection_cpp.hpp
+[2.976s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/srv/detail/get_command__type_support.cpp
+[2.977s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg
+[2.977s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail
+[2.978s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__type_support.cpp
+[2.979s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__type_support.cpp
+[2.979s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_status__rosidl_typesupport_introspection_cpp.hpp
+[2.979s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/include/control_interfaces/control_interfaces/msg/detail/auv_buoyancy__rosidl_typesupport_introspection_cpp.hpp
+[2.980s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.980s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_typesupport_cpp.so
+[2.981s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/pythonpath.sh
+[2.981s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/pythonpath.dsv
+[2.982s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info
+[2.982s] -- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.982s] -- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.983s] -- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.983s] -- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.984s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces
+[2.984s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.984s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/__init__.py
+[2.985s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.985s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.986s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv
+[2.986s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_task.py
+[2.986s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/__init__.py
+[2.987s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_buoyancy_control_s.c
+[2.987s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_command_s.c
+[2.988s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_buoyancy_control.py
+[2.988s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_command.py
+[2.989s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv/_get_task_s.c
+[2.989s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.990s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_c.c
+[2.990s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg
+[2.991s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg/__init__.py
+[2.991s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg/_auv_status_s.c
+[2.992s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg/_auv_status.py
+[2.992s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg/_auv_buoyancy.py
+[2.993s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg/_auv_buoyancy_s.c
+[2.993s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/libcontrol_interfaces__rosidl_generator_py.so
+[2.993s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.026s] Listing '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces'...
+[3.027s] Listing '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/msg'...
+[3.028s] Listing '/home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/srv'...
+[3.037s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.038s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.038s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/local/lib/python3.10/dist-packages/control_interfaces/control_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.039s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/lib/libcontrol_interfaces__rosidl_generator_py.so
+[3.039s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand.idl
+[3.040s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask.idl
+[3.041s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl.idl
+[3.041s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/msg/AUVBuoyancy.idl
+[3.042s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/msg/AUVStatus.idl
+[3.042s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand.srv
+[3.042s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand_Request.msg
+[3.043s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetCommand_Response.msg
+[3.043s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask.srv
+[3.044s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask_Request.msg
+[3.044s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/GetTask_Response.msg
+[3.047s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl.srv
+[3.048s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl_Request.msg
+[3.048s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/srv/BuoyancyControl_Response.msg
+[3.065s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/msg/AUVBuoyancy.msg
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/msg/AUVStatus.msg
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/package_run_dependencies/control_interfaces
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/parent_prefix_path/control_interfaces
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.sh
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/ament_prefix_path.dsv
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/path.sh
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/environment/path.dsv
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.bash
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.sh
+[3.066s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.zsh
+[3.067s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/local_setup.dsv
+[3.067s] -- Installing: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.dsv
+[3.067s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/ament_index/resource_index/packages/control_interfaces
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_cppExport.cmake
+[3.068s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.069s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.069s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.069s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/export_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.070s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/cmake/control_interfacesConfig-version.cmake
+[3.071s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/control_interfaces/share/control_interfaces/package.xml
+[3.072s] Invoked command in '/home/orangepi/AUV_ROS2/build/control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/control_interfaces

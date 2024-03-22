@@ -1,0 +1,148 @@
+[0.083s] Invoking command in '/home/orangepi/AUV_ROS2/build/facer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/facer_interfaces -- -j8 -l8
+[2.336s] [  0%] Built target ament_cmake_python_copy_facer_interfaces
+[2.337s] [  3%] Built target facer_interfaces__cpp
+[2.338s] [ 12%] Built target facer_interfaces__rosidl_generator_c
+[2.342s] [ 22%] Built target facer_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.347s] [ 32%] Built target facer_interfaces__rosidl_typesupport_fastrtps_c
+[2.348s] [ 41%] Built target facer_interfaces__rosidl_typesupport_introspection_c
+[2.350s] [ 51%] Built target facer_interfaces__rosidl_typesupport_introspection_cpp
+[2.352s] [ 61%] Built target facer_interfaces__rosidl_typesupport_cpp
+[2.352s] [ 70%] Built target facer_interfaces__rosidl_typesupport_c
+[2.353s] [ 70%] Built target facer_interfaces
+[2.353s] [ 74%] Built target facer_interfaces__py
+[2.354s] [ 80%] Built target facer_interfaces__rosidl_generator_py
+[2.354s] [ 87%] Built target facer_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.355s] [ 93%] Built target facer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.355s] [100%] Built target facer_interfaces__rosidl_typesupport_c__pyext
+[2.356s] running egg_info
+[2.356s] writing facer_interfaces.egg-info/PKG-INFO
+[2.356s] writing dependency_links to facer_interfaces.egg-info/dependency_links.txt
+[2.357s] writing top-level names to facer_interfaces.egg-info/top_level.txt
+[2.357s] reading manifest file 'facer_interfaces.egg-info/SOURCES.txt'
+[2.358s] writing manifest file 'facer_interfaces.egg-info/SOURCES.txt'
+[2.358s] [100%] Built target ament_cmake_python_build_facer_interfaces_egg
+[2.800s] Invoked command in '/home/orangepi/AUV_ROS2/build/facer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/AUV_ROS2/build/facer_interfaces -- -j8 -l8
+[3.134s] Invoking command in '/home/orangepi/AUV_ROS2/build/facer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/facer_interfaces
+[3.201s] -- Install configuration: ""
+[3.202s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/ament_index/resource_index/rosidl_interfaces/facer_interfaces
+[3.202s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.203s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.203s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detection_result.h
+[3.204s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.204s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__functions.c
+[3.205s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__functions.h
+[3.205s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__struct.h
+[3.206s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__type_support.h
+[3.206s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg
+[3.206s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.207s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/library_path.sh
+[3.207s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/library_path.dsv
+[3.208s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_generator_c.so
+[3.208s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.208s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.209s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.209s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__rosidl_typesupport_fastrtps_c.h
+[3.210s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg
+[3.211s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.212s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.212s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.213s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.214s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.214s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__rosidl_typesupport_introspection_c.h
+[3.214s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__type_support.c
+[3.215s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg
+[3.216s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.216s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_introspection_c.so
+[3.217s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_c.so
+[3.217s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.218s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.218s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detection_result.hpp
+[3.219s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.220s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__builder.hpp
+[3.221s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__struct.hpp
+[3.221s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__traits.hpp
+[3.221s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.222s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.223s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.223s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp
+[3.224s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/dds_fastrtps
+[3.224s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg
+[3.224s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.225s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.225s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces
+[3.226s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv
+[3.226s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail
+[3.226s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp
+[3.227s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/include/facer_interfaces/facer_interfaces/srv/detail/detection_result__type_support.cpp
+[3.227s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.228s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_typesupport_cpp.so
+[3.228s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/pythonpath.sh
+[3.229s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/pythonpath.dsv
+[3.229s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces-0.0.0-py3.10.egg-info
+[3.230s] -- Installing: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.230s] -- Installing: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.230s] -- Installing: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.231s] -- Installing: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.231s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces
+[3.232s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/libfacer_interfaces__rosidl_generator_py.so
+[3.232s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/__init__.py
+[3.232s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/_facer_interfaces_s.ep.rosidl_typesupport_c.c
+[3.233s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/_facer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.233s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.234s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.234s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.234s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/_facer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.235s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/srv
+[3.235s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/srv/_detection_result_s.c
+[3.236s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/srv/__init__.py
+[3.236s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/srv/_detection_result.py
+[3.466s] Listing '/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces'...
+[3.466s] Listing '/home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/srv'...
+[3.504s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.506s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.507s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/local/lib/python3.10/dist-packages/facer_interfaces/facer_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.508s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/lib/libfacer_interfaces__rosidl_generator_py.so
+[3.509s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/srv/DetectionResult.idl
+[3.509s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/srv/DetectionResult.srv
+[3.509s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/srv/DetectionResult_Request.msg
+[3.509s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/srv/DetectionResult_Response.msg
+[3.509s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/ament_index/resource_index/package_run_dependencies/facer_interfaces
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/ament_index/resource_index/parent_prefix_path/facer_interfaces
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/ament_prefix_path.sh
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/ament_prefix_path.dsv
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/path.sh
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/environment/path.dsv
+[3.510s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/local_setup.bash
+[3.511s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/local_setup.sh
+[3.511s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/local_setup.zsh
+[3.511s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/local_setup.dsv
+[3.511s] -- Installing: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.dsv
+[3.512s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/ament_index/resource_index/packages/facer_interfaces
+[3.513s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_generator_cExport.cmake
+[3.513s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.513s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.514s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.514s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.514s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.514s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_cExport.cmake
+[3.515s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.515s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_generator_cppExport.cmake
+[3.515s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.516s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.516s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.516s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.517s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_cppExport.cmake
+[3.517s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.517s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_generator_pyExport.cmake
+[3.518s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/export_facer_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.518s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.518s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.518s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.518s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfacesConfig.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/cmake/facer_interfacesConfig-version.cmake
+[3.519s] -- Up-to-date: /home/orangepi/AUV_ROS2/install/facer_interfaces/share/facer_interfaces/package.xml
+[3.570s] Invoked command in '/home/orangepi/AUV_ROS2/build/facer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/AUV_ROS2/install/task2_node:/home/orangepi/AUV_ROS2/install/task2_drum_detection:/home/orangepi/AUV_ROS2/install/task1_node:/home/orangepi/AUV_ROS2/install/task1_gate_detection:/home/orangepi/AUV_ROS2/install/task1_flare_detection:/home/orangepi/AUV_ROS2/install/status_node:/home/orangepi/AUV_ROS2/install/start_auv:/home/orangepi/AUV_ROS2/install/remote_node:/home/orangepi/AUV_ROS2/install/q_gate_detection:/home/orangepi/AUV_ROS2/install/master_node_simulation:/home/orangepi/AUV_ROS2/install/master_node:/home/orangepi/AUV_ROS2/install/facer_input:/home/orangepi/AUV_ROS2/install/control_node:/home/orangepi/AUV_ROS2/install/buoyancy_node:/home/orangepi/opencv_ws/install/task2_drum_detection:/home/orangepi/opencv_ws/install/task1_gate_detection:/home/orangepi/opencv_ws/install/task1_flare_detection:/home/orangepi/opencv_ws/install/q_gate_detection:/home/orangepi/opencv_ws/install/master_node_simulation:/home/orangepi/opencv_ws/install/facer_input:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/AUV_ROS2/build/facer_interfaces

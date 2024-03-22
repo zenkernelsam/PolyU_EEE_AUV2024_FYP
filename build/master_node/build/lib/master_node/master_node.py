@@ -6,7 +6,10 @@
 import rclpy
 import time
 from rclpy.node import Node
+from rclpy.parameter import Parameter
 from control_interfaces.srv import GetCommand, GetTask
+#SetParametersResult message is used for Parameters API (add_on_set_parameters_callback())
+from rcl_interfaces.msg import SetParametersResult
 
 class MasterNode(Node):
     def __init__(self):
@@ -14,7 +17,7 @@ class MasterNode(Node):
         self.srv = self.create_service(GetCommand, 'get_command', self.get_command_callback) #Create a Server (service) to listen Control Node's request
         self.current_node_index = self.declare_parameter('task_index', 0).value
         #self.current_node_index = 0
-        self.task_nodes = ['task1', 'flare_detect', 'task3', 'task4']  # Add all task nodes topic names in order
+        self.task_nodes = ['task1', 'task2', 'flare_detect', 'task4']  # Add all task nodes topic names in order
         self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
         print(f"Task Selected: {self.task_nodes[self.current_node_index]}")
         '''
@@ -22,7 +25,8 @@ class MasterNode(Node):
         i.e. self.client = self.create_client(GetTask, self.task_nodes[self.current_node_index])
         is put in main()
         '''
-
+        #Add ROS2 parameter_callback
+        self.add_on_set_parameters_callback(self.parameter_callback)
         #Initial response messages
         self.task_name = ""
         self.hardware_name = ""
@@ -40,13 +44,25 @@ class MasterNode(Node):
         self.get_logger().info('[O] Found Task Node --> [task_node]...')
         self.req_task = GetTask.Request()
 
+    def parameter_callback(self, params):
+        for param in params:
+            if param.name == 'task_index':
+                # Update the current_node_index with the new value
+                self.current_node_index = param.value
+                self.get_logger().info(f"[*] Parameter 'task_index' changed to {self.current_node_index}")
+                self.get_logger().info(f"[*] Switching to task: {self.task_nodes[self.current_node_index]}")
+                # You can perform additional actions here if needed
+                return SetParametersResult(successful=True)
+        return SetParametersResult(successful=False)
+
     def write_response(self, task_name, buoyancy_direction, thruster_direction, time, angle, start):
-        self.task_name = task_name
-        self.buoyancy_direction = buoyancy_direction
-        self.thruster_direction = thruster_direction
+        self.task_name = str(task_name)
+        self.buoyancy_direction = str(buoyancy_direction)
+        self.thruster_direction = str(thruster_direction)
         self.time = time
         self.angle = angle
-        self.start = start
+        if start != "":
+            self.start = start
 
     def send_request(self):
         if self.client.service_is_ready():
@@ -62,6 +78,7 @@ class MasterNode(Node):
     def get_command_callback(self, request, response_from_master):
         #self.get_logger().info(f"Get request.get_command: {request.get_command}") # Debug
         #Freewheel the callback until it gets message from task node
+        count = 0
         while True:
             if self.start == True:
                 if request.get_command is True:
@@ -74,15 +91,17 @@ class MasterNode(Node):
                     #Debug Use:
                     response_from_master.count = self.count 
                 return response_from_master
-            else:
-                continue
-        
+            elif self.start == False:
+                if count < 5:
+                    self.get_logger().warn(f"[!] Freewheeling get_command_callback() [Retrying: {count}]")
+                    time.sleep(0.1)
+                    count += 1
+                    continue
+                else:
+                    self.write_response("***RESETTING RESPONSE***","Still","None",0,0,True)
+
     def clean_data(self):
-        self.task_name = ""
-        self.hardware_name = ""
-        self.hardware_parameter = ""
-        self.time = 0
-        self.angle = 0
+        self.write_response("","","",0,0,"")
     
 
 def main(args=None):
@@ -96,7 +115,7 @@ def main(args=None):
                 #If send_request() failed (returning False), the loop will retry after 0.5 seconds
                 #With this approach, you can activate task nodes later and the system will not stuck in the
                 #next command: rclpy.spin_once(master_node), spinning with nothing but waiting for future.done() from task node
-                #time.sleep(0.2)
+                time.sleep(0.1)
                 continue
             
             #rclpy.spin_once(master_node)
@@ -119,13 +138,14 @@ def main(args=None):
                     master_node.get_logger().info(f"{response.is_finished}, Buoyancy: {response.buoyancy_direction}, Thruster: {response.thruster_direction},Duration (Time): {response.time}, Angle: {response.angle}") # Wait a bit before sending the next request
                     master_node.get_logger().info(f"Counting: {master_node.count}")
                     #Forwarding message to control_node:
-                    #Write into node
                     #Clean Data
                     master_node.clean_data()
                     time.sleep(0.2)
+                    #Write into node
                     master_node.write_response(response.task_name,response.buoyancy_direction,response.thruster_direction,response.time,response.angle,True)
+
                 del response
-            time.sleep(0.3) #While master node control the frequency of the request flow
+            time.sleep(0.2) #While master node control the frequency of the request flow
 
 
         #Exit criteria

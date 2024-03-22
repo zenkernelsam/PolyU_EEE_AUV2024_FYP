@@ -1,0 +1,21 @@
+[2.158s] Invoking command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed install_data
+[2.539s] running egg_info
+[2.540s] writing ../../build/task1_flare_detection/task1_flare_detection.egg-info/PKG-INFO
+[2.541s] writing dependency_links to ../../build/task1_flare_detection/task1_flare_detection.egg-info/dependency_links.txt
+[2.541s] writing entry points to ../../build/task1_flare_detection/task1_flare_detection.egg-info/entry_points.txt
+[2.542s] writing requirements to ../../build/task1_flare_detection/task1_flare_detection.egg-info/requires.txt
+[2.542s] writing top-level names to ../../build/task1_flare_detection/task1_flare_detection.egg-info/top_level.txt
+[2.544s] reading manifest file '../../build/task1_flare_detection/task1_flare_detection.egg-info/SOURCES.txt'
+[2.545s] writing manifest file '../../build/task1_flare_detection/task1_flare_detection.egg-info/SOURCES.txt'
+[2.546s] running build
+[2.546s] running build_py
+[2.547s] running install
+[2.547s] running install_lib
+[2.548s] running install_data
+[2.549s] running install_egg_info
+[2.552s] removing '/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.552s] Copying ../../build/task1_flare_detection/task1_flare_detection.egg-info to /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages/task1_flare_detection-0.0.0-py3.10.egg-info
+[2.553s] running install_scripts
+[2.587s] Installing flare_detection script to /home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/task1_flare_detection
+[2.588s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log'
+[2.657s] Invoked command in '/home/orangepi/AUV_ROS2/src/task1_flare_detection' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/task1_flare_detection/prefix_override:/home/orangepi/AUV_ROS2/install/task1_flare_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task1_flare_detection build --build-base /home/orangepi/AUV_ROS2/build/task1_flare_detection/build install --record /home/orangepi/AUV_ROS2/build/task1_flare_detection/install.log --single-version-externally-managed install_data

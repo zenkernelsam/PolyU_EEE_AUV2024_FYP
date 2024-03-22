@@ -10,6 +10,7 @@ setup.py
 ../../build/master_node/master_node.egg-info/top_level.txt
 ../../build/master_node/master_node.egg-info/zip-safe
 master_node/__init__.py
+master_node/master_node-21-3-2024.py
 master_node/master_node.py
 master_node/master_node_duplicated.py
 master_node/master_node_ok_backup.py

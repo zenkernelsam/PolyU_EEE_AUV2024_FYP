@@ -62,10 +62,10 @@ def thruster_move(thruster,period,d_cycle,t):
     elif thruster == "all":
         call_bash("pwmchip2", period, duty_cycle_L)
         call_bash("pwmchip3", period, duty_cycle_R)
-    elif thruster == "water_pump1":
-        call_bash("pwmchip2", period, duty_cycle_L)
-    elif thruster == "water_pump2":
-        call_bash("pwmchip5", period, duty_cycle_L)
+    #elif thruster == "water_pump1":
+    #    call_bash("pwmchip2", period, duty_cycle_L)
+    #elif thruster == "water_pump2":
+    #    call_bash("pwmchip5", period, duty_cycle_L)
     else:
         print("Error: thruster is unknown: {}".format(thruster))
         return False
@@ -279,7 +279,7 @@ def auv_init():
     thruster_move("right", period, 4.5, 0)
 
     #Initialize water_pump's PWM signal: 100Hz, 99% or others (then 12V*0.8=9.6V)
-    thruster_move("water_pump",(1/100)*1E9, pump_voltage,0)
+    #thruster_move("water_pump",(1/100)*1E9, pump_voltage,0)
 
     #Initialization Complete
     print("Complete Initialization.")

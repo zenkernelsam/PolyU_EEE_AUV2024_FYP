@@ -121,14 +121,14 @@ def main(args=None):
                 control_node.get_logger().info(f"Count: {response.count}")
                 #if thruster_system(response.thruster_direction, response.time, response.angle) == True:
                 if thruster_system(response.thruster_direction) == True:
-                    print("thrsuter_system() has been called")
+                    control_node.get_logger().info("[T] thrsuter_system() has been called")
                 else: 
-                    print("[!]Error in thruster_system()")
+                    control_node.get_logger().info("[!]Error in thruster_system()")
                 #Debug Use:
                 #print("Here1, Buoyancy: {}".format(response.buoyancy_direction))
                 control_node.get_logger().info(f"[buoyancy_system] Hardware Control: Buoyancy; Direction: {response.buoyancy_direction}")
                 if control_node.buoyancy_count < 5:
-                    control_node.get_logger().info(f"Current buoyancy count: {control_node.buoyancy_count}; Buoyancy Request is Skipped")
+                    control_node.get_logger().info(f"[B] Current buoyancy count: {control_node.buoyancy_count}; Buoyancy Request is Skipped")
                 else:
                     #Start requesting buoyancy_node
                     if response.buoyancy_direction != "Neutral":

@@ -1,0 +1,20 @@
+[3.901s] Invoking command in '/home/orangepi/AUV_ROS2/src/start_auv': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed install_data
+[4.317s] running egg_info
+[4.319s] writing ../../build/start_auv/start_auv.egg-info/PKG-INFO
+[4.320s] writing dependency_links to ../../build/start_auv/start_auv.egg-info/dependency_links.txt
+[4.321s] writing entry points to ../../build/start_auv/start_auv.egg-info/entry_points.txt
+[4.321s] writing requirements to ../../build/start_auv/start_auv.egg-info/requires.txt
+[4.322s] writing top-level names to ../../build/start_auv/start_auv.egg-info/top_level.txt
+[4.326s] reading manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+[4.328s] writing manifest file '../../build/start_auv/start_auv.egg-info/SOURCES.txt'
+[4.328s] running build
+[4.328s] running build_py
+[4.329s] running install
+[4.330s] running install_lib
+[4.333s] running install_data
+[4.333s] running install_egg_info
+[4.337s] removing '/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv-0.0.0-py3.10.egg-info' (and everything under it)
+[4.346s] Copying ../../build/start_auv/start_auv.egg-info to /home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages/start_auv-0.0.0-py3.10.egg-info
+[4.368s] running install_scripts
+[4.433s] writing list of installed files to '/home/orangepi/AUV_ROS2/build/start_auv/install.log'
+[5.023s] Invoked command in '/home/orangepi/AUV_ROS2/src/start_auv' returned '0': PYTHONPATH=/home/orangepi/AUV_ROS2/build/start_auv/prefix_override:/home/orangepi/AUV_ROS2/install/start_auv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/start_auv build --build-base /home/orangepi/AUV_ROS2/build/start_auv/build install --record /home/orangepi/AUV_ROS2/build/start_auv/install.log --single-version-externally-managed install_data
